@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './sass/_base.scss'
+
+//components
+import Nav from './components/Nav/Nav'
 
 function App() {
   return (
     <div className="App">
-      
+      <Nav />
     </div>
   );
 }
