@@ -5,6 +5,9 @@ import profilePic from '../../assets/images/test.png'
 
 const Nav = () => {
     const [ isOpen, setIsOpen ] = useState(false)
+
+    window.onresize = () => (window.innerWidth > 700 && isOpen) && setIsOpen(false)
+
     return (
         <div className="nav">
             <div className="nav__desktop">
