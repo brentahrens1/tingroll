@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import '../../sass/_nav.scss'
 
+import { Link } from 'react-router-dom'
+
 import profilePic from '../../assets/images/test.png'
 
 const Nav = () => {
@@ -12,7 +14,7 @@ const Nav = () => {
         <div className="nav">
             <div className="nav__desktop">
                 <div className="nav__top">
-                    <h2 className="nav__header">Jenevieve Ting</h2>
+                    <h2 className="nav__header"><Link to="/">Jenevieve Ting</Link></h2>
                     <div className="nav__list">
                         <p>Projects</p>,
                         <p>About</p>,

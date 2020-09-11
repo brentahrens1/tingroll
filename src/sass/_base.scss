@@ -1,3 +1,5 @@
+@import './variables';
+
 html {
     box-sizing: border-box;
 }
@@ -20,4 +22,12 @@ h1,h2,h3,h4,h5,h6 {
 
 p,a,li {
     font-family: 'space-grotesk-regular';
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: $border-green;
 }

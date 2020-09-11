@@ -1,0 +1,31 @@
+@import './variables';
+@import './mixins';
+
+.home {
+    margin-left: 250px;
+    height: 100vh;
+
+    &__content {
+        width: 80%;
+        padding: 1rem;
+
+        .home__content-box {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .home__content-category {
+            margin-top: 1.8rem;
+        }
+
+        .home__content-header {
+            font-size: 5rem;
+        }
+    }
+}
+
+@media (max-width: $mobile) {
+    .home {
+        margin-left: 0;
+    }
+}
