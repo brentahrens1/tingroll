@@ -60,6 +60,24 @@
             width: 35px;
             border: .5px solid $primary-font-color;
             border-radius: 50%;
+            z-index: 999;
+        }
+    }
+
+    .overlay {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: left 300ms ease-in-out;
+        background: #fff;
+        display: none;
+
+        &__links {
+            @include flex-column;
         }
     }
 }
@@ -74,6 +92,14 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+        }
+
+        .overlay {
+            display: flex;
+        }
+
+        .active {
+            left: 0;
         }
     }
 }

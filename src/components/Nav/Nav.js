@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../sass/_nav.scss'
 
 import profilePic from '../../assets/images/test.png'
 
 const Nav = () => {
+    const [ isOpen, setIsOpen ] = useState(false)
     return (
         <div className="nav">
             <div className="nav__desktop">
@@ -36,7 +37,14 @@ const Nav = () => {
             </div>
             <div className="nav__mobile">
                 <h2 className="nav__header-mobile">Jenevieve Ting</h2>
-                <div className="nav__target" />
+                <div className="nav__target" onClick={() => setIsOpen(!isOpen)} />
+            </div>
+            <div className={`overlay ${isOpen ? 'active' : ''}`}>
+                <div className="overlay__links">
+                    <h2>Projects</h2>
+                    <h2>About</h2>
+                    <h2>Contact</h2>
+                </div>
             </div>
         </div>
     )
