@@ -21,6 +21,10 @@ const Nav = () => {
                     <div className="nav__profile-pic">
                         <img src={profilePic} alt="Jenevieve Ting" />
                     </div>
+                    <div className="nav__location">
+                        <p>Los Angeles, CA</p>
+                        <p>7:03PM 80 Degrees</p>
+                    </div>
                 </div>
                 <div className="nav__bottom">
                     <div className="nav__contact">
