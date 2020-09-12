@@ -20,6 +20,7 @@
 
     &__header {
         margin-bottom: $margin-bottom;
+        font-weight: 400;
 
         a {
             text-decoration: none;
@@ -79,7 +80,7 @@
         top: 0;
         left: -100%;
         transition: left 300ms ease-in-out;
-        background: #fff;
+        background: $secondary-font-color;
         display: none;
 
         &__links {
