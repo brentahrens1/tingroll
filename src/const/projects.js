@@ -7,7 +7,7 @@ export const projects = [
         id: 0
     },
     {
-        category: 'Poetry',
+        category: 'Performance & poem',
         header: 'QUEER LOVE IS SPACIOUS',
         date: 'July 2020–Present',
         description: 'How can a queer & non-binary lens or "framework" help us to better access other parts of ourselves with a greater sense of love & imagination? This recurring writing, thinking, and feeling workshop focuses on the ways QTBIPOC love can be rooted in & guided by a belief in spaciousness, the ceaseless ebb & flow of our own expansion, and how queerness is its own form of poetry.',

@@ -7,6 +7,7 @@
     overflow-x: hidden;
 
     &__content {
+        position: relative;
         width: 100%;
         padding: 1rem;
         cursor: pointer;
@@ -33,27 +34,59 @@
         }
 
         .home__content-box {
-            display: flex;
+
+            h1 {
+               margin-left: 11rem; 
+            }
         }
 
         .home__content-box-2 {
             margin-top: -1rem;
 
+            .floating-div {
+                float: left;
+                margin-right: 1rem;
+            }
+
             p {
-                width: 70%;
-                text-indent: 350px;
-                transform: translate(200px, -30px);
+                margin: 0 auto;
+                margin-right: 3rem;
+                margin-left: 11rem;
+                padding-top: 4rem;
             }
         }
 
         .home__content-category {
-            width: 15%;
+            position: absolute;
+            left: 1rem;
+            width: 14%;
+            max-width: 150px;
             margin-right: 1rem;
-            margin-top: 1.8rem;
+            margin-top: 1.4rem;
         }
 
         .home__content-header {
-            font-size: 4.3rem;
+            font-size: 4.5rem;
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .home {
+        .home__content-header {
+            font-size: 3.5rem;
+        }
+        
+        .home__content-box-2 {
+
+            p {
+                padding-top: 2.9rem;
+                margin-left: 1rem;
+            }
+        }
+
+        .home__content-category {
+            width: 20%;
         }
     }
 }
@@ -61,5 +94,27 @@
 @media (max-width: $mobile) {
     .home {
         margin-left: 0;
+
+        .home__content-box {
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                margin-left: 3rem;
+            }
+        }
+        
+        .home__content-box-2 {
+
+            h1 {
+                margin-left: 1rem;
+            }
+        }
+
+        .home__content-category {
+            width: 100%;
+            max-width: 100%;
+            position: relative;
+        }
     }
 }

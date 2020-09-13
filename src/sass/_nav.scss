@@ -68,7 +68,7 @@
             border: .5px solid $primary-font-color;
             border-radius: 50%;
             cursor: pointer;
-            z-index: 999;
+            z-index: 1000;
         }
     }
 
@@ -82,6 +82,7 @@
         left: -100%;
         transition: left 300ms ease-in-out;
         background: $secondary-font-color;
+        z-index: 999;
         display: none;
 
         &__links {
