@@ -7,8 +7,13 @@
     overflow-x: hidden;
     position: relative;
 
-    .home__content {
-        padding-top: 0;
+    .home {
+        margin-left: 0;
+        width: 100%;
+        .home__content {
+            padding: 0;
+            padding-top: 0;
+        }
     }
 
     &__back {
@@ -16,5 +21,11 @@
         position: absolute;
         right: 1rem;
         z-index: 999;
+    }
+}
+
+@media (max-width: $mobile) {
+    .project-show {
+        margin-left: 0;
     }
 }
