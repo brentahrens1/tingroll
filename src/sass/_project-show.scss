@@ -5,4 +5,15 @@
     margin-left: 250px;
     padding: 1rem;
     overflow-x: hidden;
+    position: relative;
+
+    .home__content {
+        padding-top: 0;
+    }
+
+    &__back {
+        color: $primary-font-color;
+        position: absolute;
+        right: 1rem;
+    }
 }
