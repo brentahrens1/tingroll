@@ -8,6 +8,8 @@ import profilePic from '../../assets/images/test.png'
 const Nav = () => {
     const [ isOpen, setIsOpen ] = useState(false)
 
+    const [ isActive, setIsActive ] = useState(false)
+
     window.onresize = () => (window.innerWidth > 700 && isOpen) && setIsOpen(false)
 
     return (
@@ -17,8 +19,8 @@ const Nav = () => {
                     <h2 className="nav__header"><Link to="/">Jenevieve Ting</Link></h2>
                     <div className="nav__list">
                         <p><Link to="/">Projects</Link></p>,
-                        <p>About</p>,
-                        <p>Contact</p>
+                        <p><Link to="/">About</Link></p>,
+                        <p><Link to="/">Contact</Link></p>,
                     </div>
                     <div className="nav__profile-pic">
                         <img src={profilePic} alt="Jenevieve Ting" />

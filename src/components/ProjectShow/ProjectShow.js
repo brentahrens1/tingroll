@@ -29,6 +29,18 @@ const ProjectShow = ({ match }) => {
                   </div>
               </div>
             </div>
+            {project.type === "interview" ? 
+              <h1 className="home__content-header header">{`interview : ${project.header}`}</h1>
+              :
+              <div className="show">
+                <div className="show__top">
+                  <p>{project.tag}</p>
+                <div className="show__top-img">
+                  <img src={project.topImage} alt={project.title} />
+                </div>
+              </div>
+            </div> 
+          } 
         </div>
     </>}
   </>
