@@ -2,6 +2,14 @@
 
 $p: 1rem;
 
+$p-extra-wide: 1.4rem;
+
+$h1: 4.5rem;
+
+$h1-extra-wide: 5.5rem;
+
+$h1-tablet: 3.5rem;
+
 $h2: 1.4rem;
 
 // font color
@@ -24,5 +32,6 @@ $border-green: #B5FCB9;
 // breakpoints
 
 $mobile: 700px;
-$tablet: 100px;
+$tablet: 1050px;
 $desktop: 1200px;
+$extra-wide: 1700px;

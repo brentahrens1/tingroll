@@ -66,15 +66,35 @@
         }
 
         .home__content-header {
-            font-size: 4.5rem;
+            font-size: $h1;
         }
     }
 }
 
-@media (max-width: 1050px) {
+@media (min-width: $extra-wide) {
     .home {
         .home__content-header {
-            font-size: 3.5rem;
+            font-size: $h1-extra-wide;
+        }
+        
+        .home__content-box-2 {
+
+            p {
+                font-size: $p-extra-wide;
+                padding-top: 4.8rem;
+            }
+        }
+
+        .home__content-category {
+            font-size: $p-extra-wide;
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .home {
+        .home__content-header {
+            font-size: $h1-tablet;
         }
         
         .home__content-box-2 {

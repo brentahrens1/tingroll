@@ -16,7 +16,7 @@ const Nav = () => {
                 <div className="nav__top">
                     <h2 className="nav__header"><Link to="/">Jenevieve Ting</Link></h2>
                     <div className="nav__list">
-                        <p>Projects</p>,
+                        <p><Link to="/">Projects</Link></p>,
                         <p>About</p>,
                         <p>Contact</p>
                     </div>

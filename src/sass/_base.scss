@@ -26,10 +26,10 @@ p,a,li {
     font-size: $p;
 }
 
-body::-webkit-scrollbar {
-    width: 8px;
+::-webkit-scrollbar {
+    width: 4px;
 }
  
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: $border-green;
 }
