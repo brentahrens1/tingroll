@@ -23,14 +23,14 @@ const ProjectShow = ({ match }) => {
             <div className="home">
               <div className="home__content">
                   <div className="home__content-box">
-                      <p className="home__content-category">{project.category}</p>
-                      <h1 className="home__content-header header">{project.header}</h1> 
+                      {project.category}
+                      {project.header}
                   </div>
                   <div className="home__content-box-2">
                       <div className="floating-div">
-                        <h1 className="home__content-header date">{project.date}</h1>
+                        {project.date}
                       </div>
-                      <p className="home__content-decscription">{project.description}</p>
+                      {project.description}
                   </div>
               </div>
             </div>
