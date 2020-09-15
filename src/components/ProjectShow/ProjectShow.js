@@ -35,12 +35,31 @@ const ProjectShow = ({ match }) => {
               <div className="show">
                 <div className="show__top">
                   <p>{project.tag}</p>
-                <div className="show__top-img">
-                  <img src={project.topImage} alt={project.title} />
+                  <div className="show__top-img">
+                    <img src={project.topImage} alt={project.title} />
+                  </div>
                 </div>
-              </div>
-            </div> 
-          } 
+                <div className="show__section">
+                  <div className="show__section-info">
+                    <p>{project.dateTag}</p>
+                  </div>
+                  <div className="show__section-content">
+                    <h1>{project.title}</h1>
+                    {project.poem}
+                  </div>
+                </div>
+                <div className="show__bottom">
+                  <img src={project.imageTwo} alt={project.title} />
+                  <img src={project.imageThree} alt={project.title} />
+                </div>
+                <div className="show__credits">
+                  <p>Photography {project.photoCred}</p>
+                  <p>Poem {project.poemCred}</p>
+                  <p>Performance {project.performanceCred}</p>
+                  <p>Curated Performace {project.curatedCred}</p>
+                </div>
+              </div> 
+            } 
         </div>
     </>}
   </>
