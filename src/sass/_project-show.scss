@@ -80,8 +80,17 @@
         }
 
         .show__credits {
-            p {
-                margin-bottom: .5rem;
+            width: 400px;
+            text-align: left;
+            margin-bottom: 2rem;
+
+            .show__credits-section {
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                    width: 200px;
+                }
             }
         }
     }
@@ -91,6 +100,11 @@
         position: absolute;
         right: 1rem;
         z-index: 999;
+    }
+
+    .scroll-top {
+        text-decoration: underline;
+        cursor: pointer;
     }
 }
 

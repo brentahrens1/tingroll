@@ -7,6 +7,11 @@ import { Link } from 'react-router-dom'
 import { projects } from '../../const/projects'
  
 const ProjectShow = ({ match }) => {
+
+  const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'});
+ };
+
   const project = projects.find((project) => {
     return parseInt(match.params.id) === project.id
   })
@@ -53,11 +58,20 @@ const ProjectShow = ({ match }) => {
                   <img src={project.imageThree} alt={project.title} />
                 </div>
                 <div className="show__credits">
-                  <p>Photography {project.photoCred}</p>
-                  <p>Poem {project.poemCred}</p>
-                  <p>Performance {project.performanceCred}</p>
-                  <p>Curated Performace {project.curatedCred}</p>
+                  <div className="show__credits-section">
+                    <p>Photography</p><p>{project.photoCred}</p>
+                  </div>
+                  <div className="show__credits-section">
+                    <p>Poem</p><p>{project.poemCred}</p>
+                  </div>
+                  <div className="show__credits-section">
+                    <p>Performance</p><p>{project.performanceCred}</p>
+                  </div>
+                  <div className="show__credits-section">
+                    <p>Curated Performace</p><p>{project.curatedCred}</p>
+                  </div>
                 </div>
+                <p className="scroll-top" onClick={scrollTop}>Back to top</p>
               </div> 
             } 
         </div>
