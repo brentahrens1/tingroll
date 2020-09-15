@@ -39,37 +39,26 @@ const ProjectShow = ({ match }) => {
               :
               <div className="show">
                 <div className="show__top">
-                  <p>{project.tag}</p>
+                    {project.tag}
                   <div className="show__top-img">
-                    <img src={project.topImage} alt={project.title} />
+                    {project.topImage}
                   </div>
                 </div>
                 <div className="show__section">
-                  <div className="show__section-info">
-                    <p>{project.dateTag}</p>
+                  <div className="show__section-date-tag">
+                    {project.dateTag}
                   </div>
                   <div className="show__section-content">
-                    <h1>{project.title}</h1>
-                    {project.poem}
+                    {project.title}
+                    {project.showBody}
                   </div>
                 </div>
                 <div className="show__bottom">
-                  <img src={project.imageTwo} alt={project.title} />
-                  <img src={project.imageThree} alt={project.title} />
+                  {project.imageTwo}
+                  {project.imageThree}
                 </div>
                 <div className="show__credits">
-                  <div className="show__credits-section">
-                    <p>Photography</p><p>{project.photoCred}</p>
-                  </div>
-                  <div className="show__credits-section">
-                    <p>Poem</p><p>{project.poemCred}</p>
-                  </div>
-                  <div className="show__credits-section">
-                    <p>Performance</p><p>{project.performanceCred}</p>
-                  </div>
-                  <div className="show__credits-section">
-                    <p>Curated Performace</p><p>{project.curatedCred}</p>
-                  </div>
+                  {project.credits}
                 </div>
                 <p className="scroll-top" onClick={scrollTop}>Back to top</p>
               </div> 
