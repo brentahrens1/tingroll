@@ -98,21 +98,7 @@
         margin-top: 2rem;
 
         &__top {
-            display: flex;
-
-            p {
-                width: 20%;
-                min-width: 150px;
-                margin-right: 2rem;
-            }
-
-            .show__top-img {
-                width: 100%;
-
-                img {
-                    width: 100%;
-                }
-            }
+            flex-direction: column;
         }
 
         &__section {
@@ -188,12 +174,43 @@
     .project-show {
         margin-left: 0;
 
+        .interview {
+            h1 {
+                font-size: 3rem;
+            }
+    
+            .interview__top {
+                flex-direction: column;
+            }
+    
+            .interview__section-tag {
+                width: 100%;
+            }
+
+            .interview__question:not(:nth-child(1)) {
+                margin-left: 4%;
+            }
+
+            .interview__question-first {
+                margin-left: 4%;
+            }
+    
+            .interview__pull-quote-section {
+                flex-direction: column;
+    
+                .interview__pull-quote {
+                    width: 100%;
+                    font-size: 1.3rem;
+                    padding: 3rem;
+                }
+            }
+        }
+        
+
         .show {
-            width: 100%;
-            margin-top: 2rem;
     
             &__top {
-                flex-direction: column;
+                display: flex;
     
                 p {
                     width: 20%;
@@ -213,56 +230,20 @@
             &__section {
                 flex-direction: column;
     
-                .show__section-date-tag {
-                    width: 20%;
-                    min-width: 150px;
-                    margin-right: 2rem;
-                }
-    
                 .show__section-content {
-                    width: 100%;
     
                     h1 {
-                        font-size: 4.5rem;
-                        line-height: .5;
-                        margin-bottom: 2rem;
-                    }
-    
-                    p {
-                        margin-right: 5rem;
+                        font-size: 3.5rem;
                     }
                 }
             }
     
             .show__bottom {
-                width: 100%;
-    
-                img {
-                    width: 100%;
-                    margin-top: 2rem;
-                }
     
                 img:nth-child(2) {
-                    width: 50%;
-                    margin-top: .5rem;
-                    margin-bottom: 1rem;
-                }
-            }
-    
-            .show__credits {
-                width: 400px;
-                text-align: left;
-                margin-bottom: 2rem;
-    
-                .show__credits-section {
-                    display: flex;
-                    justify-content: space-between;
-    
-                    p {
-                        width: 200px;
-                    }
+                    width: 100%;
                 }
             }
         }
-    }
+    }   
 }
