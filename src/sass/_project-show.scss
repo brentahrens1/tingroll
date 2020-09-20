@@ -103,7 +103,6 @@
             .tag {
                 width: 20%;
                 min-width: 150px;
-                margin-right: 2rem;
             }
 
             .show__top-img {
@@ -224,7 +223,7 @@
         .show {
     
             &__top {
-                display: flex;
+                flex-direction: column;
     
                 p {
                     width: 20%;
