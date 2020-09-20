@@ -98,7 +98,21 @@
         margin-top: 2rem;
 
         &__top {
-            flex-direction: column;
+            display: flex;
+
+            .tag {
+                width: 20%;
+                min-width: 150px;
+                margin-right: 2rem;
+            }
+
+            .show__top-img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
         }
 
         &__section {
