@@ -14,8 +14,17 @@
         @include flex-column;
     }
 
+    .underline {
+        text-decoration: underline;
+    }
+
+    .no-underline {
+        text-decoration: none;
+    }
+
     a:link, a:visited {
         color: $primary-font-color;
+        text-decoration: none;
     }
 
     &__header {
@@ -33,6 +42,10 @@
         display: flex;
         font-size: $p;
         margin-bottom: $margin-bottom;
+
+        p:nth-child(1) {
+            text-decoration: underline;
+        }
 
         p:not(:nth-child(1)) {
             margin-left: .3rem;

@@ -18,6 +18,7 @@ import AsianAmerica3 from '../assets/images/AsianAmerica/pic2.png'
 import Gloria from '../assets/images/GoriaSteinem/gloria.png'
 
 export const projects = [
+    //Queer Love Is Spacious
     {
         type: 'poem',
         category: <p className="home__content-category">Performance & Poem</p>,
@@ -26,8 +27,9 @@ export const projects = [
         description: <p className="home__content-decscription">How can a queer & non-binary lens or "framework" help us to better access other parts of ourselves with a greater sense of love & imagination? This recurring writing, thinking, and feeling workshop focuses on the ways QTBIPOC love can be rooted in & guided by a belief in spaciousness, the ceaseless ebb & flow of our own expansion, and how queerness is its own form of poetry.</p>,
         id: 0,
         tag: <div className="tag"><p>Photo:<br /> "Grand Country"<br /> for Asian America:<br /> The Future is Now</p></div>,
-        topImage: <img src={Spacious} alt='Queer Love Is Spacious - Hero Photo' />,
+        topImage: <img src={Spacious} alt='Queer Love Is Spacious' />,
     },
+    //Netflix's “Queer is Beautiful”
     {
         type: 'poem',
         category: <p className="home__content-category">Performance & Poem</p>,
@@ -36,8 +38,9 @@ export const projects = [
         description: <p className="home__content-decscription">A Pride variety showcase for LGBTQIA+ artists, musicians, poets (including me!), and comedians for Netflix’s internal team, hosted by Alyssa Edwards. Video performance shot and edited by my dear friend & collaborator Kyoko Takenaka.</p>,
         id: 1,
         tag: <div className="tag"><p>Photo:<br /> "Grand Country"<br /> for Asian America:<br /> The Future is Now</p></div>,
-        topImage: <img src={Netflix} alt='Asian America: The Future is Now - Hero Photo' />,
+        topImage: <img src={Netflix} alt='Netflix Queer is Beautiful' />,
     },
+    //Married To Movement
     {
         type: 'poem',
         category: <p className="home__content-category">Performance & Poem</p>,
@@ -46,7 +49,7 @@ export const projects = [
         description: <p className="home__content-decscription">Organized by my friend Lauren Moon & Kim Ndombe, this piece was written and performed as part of a group art show titled “Art Breather,” an opportunity to take a collective breath and remember that “joy is a form of protest.”</p>,
         id: 2,
         tag: <div className="tag"><p>Photo:<br /> "Grand Country"<br /> for Asian America:<br /> The Future is Now</p></div>,
-        topImage: <img src={AsianAmerica} alt='Asian America: The Future is Now - Hero Photo' />,
+        topImage: <img src={AsianAmerica} alt='Married To Movement' />,
     },
     // Asian America: The Future is Now
     {
@@ -55,13 +58,13 @@ export const projects = [
         header:<h1 className="home__content-header header">Asian America: The Future is Now</h1>,
         date:<h1 className="home__content-header date">June 2020</h1>,
         description:<p className="home__content-decscription">Organized by my friend Lauren Moon & Kim Ndombe, this piece was written and performed as part of a group art show titled “Art Breather,” an opportunity to take a collective breath and remember that “joy is a form of protest.”</p>,
-        id: 4,
+        id: 3,
         tag:<div className="tag">
                 <p>Photo:<br /> "Grand Country"<br /> for Asian America:<br /> The Future is Now</p>
             </div>,
-        topImage: <img src={AsianAmerica} alt='Asian America: The Future is Now - Hero Photo' />,
+        topImage: <img src={AsianAmerica} alt='Asian America: The Future is Now' />,
         imageTwo: <img src={AsianAmerica2} alt='Asian America: The Future is Now' />,
-        imageThree: <img src={AsianAmerica3} alt={'Asian America: The Future is Now - Photo'} />,
+        imageThree: <img src={AsianAmerica3} alt='Asian America: The Future is Now' />,
         dateTag:<div className="date-tag">
                     <p>May 2020.<br /> 900 words<br /> 3:60 Min.</p>
                 </div>,
@@ -100,12 +103,12 @@ export const projects = [
         header:<h1 className="home__content-header header">Goria Steinem</h1>,
         date:<h1 className="home__content-header date">Aug. 2019</h1>,
         description:<p className="home__content-decscription">I interviewed the feminist lightning rod for Ace Reader — a new online publication for Ace Hotel — about love, hope, fear, friendship, growing in concentric circles, how “being grateful is a burden in itself,” and her lifelong commitment to social justice.</p>,
-        id: 5,
-        topImage: <img src={Gloria} alt='Gloria Steinem Interview - Hero Photo' />,
+        id: 4,
+        topImage: <img src={Gloria} alt='Gloria Steinem Interview' />,
         tag:<div className="interview__top">
                 <div className="interview__section-tag">
                     <p>Full interview on</p>
-                    <p><a href="#">Ace Reader</a></p>
+                    <p><a href="http://reader.acehotel.com/writing/the-truth-will-set-you-free-but-first-it-will-piss-you-off-interview-with-gloria-steinem/" target="_blank" rel="noopener noreferrer">Ace Reader</a></p>
                     <p>4:00 min</p>
                 </div>
                 <div className="interview__question-first interview__lines">

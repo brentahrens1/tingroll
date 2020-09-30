@@ -83,6 +83,16 @@ const ProjectShow = ({ match }) => {
                 <p className="scroll-top" onClick={scrollTop}>Back to top</p>
               </div> 
             } 
+            {
+              project.id < projects.length - 1 ?
+              <Link to={`/${project.id + 1}`}><p>Next</p></Link>
+              : null
+            }
+            {
+              project.id > 0 ?
+              <Link to={`/${project.id - 1}`}><p>Back</p></Link>
+              : null
+            }
         </div>
     </>}
   </>

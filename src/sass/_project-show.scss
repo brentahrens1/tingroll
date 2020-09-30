@@ -7,6 +7,10 @@
     overflow-x: hidden;
     position: relative;
 
+    a:link, a:visited {
+        color: #000;
+    }
+
     .home {
         margin-left: 0;
         width: 100%;
@@ -188,6 +192,7 @@
         margin-left: 0;
 
         .interview {
+
             h1 {
                 font-size: 3rem;
             }

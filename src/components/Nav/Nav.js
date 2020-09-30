@@ -8,8 +8,6 @@ import profilePic from '../../assets/images/test.png'
 const Nav = () => {
     const [ isOpen, setIsOpen ] = useState(false)
 
-    const [ isActive, setIsActive ] = useState(false)
-
     window.onresize = () => (window.innerWidth > 700 && isOpen) && setIsOpen(false)
 
     return (
@@ -20,7 +18,7 @@ const Nav = () => {
                     <div className="nav__list">
                         <p><Link to="/">Projects</Link></p>,
                         <p><Link to="/">About</Link></p>,
-                        <p><Link to="/">Contact</Link></p>,
+                        <p><Link to="/">Contact</Link></p>
                     </div>
                     <div className="nav__profile-pic">
                         <img src={profilePic} alt="Jenevieve Ting" />
@@ -33,16 +31,16 @@ const Nav = () => {
                 <div className="nav__bottom">
                     <div className="nav__contact">
                         <p>Telephone</p>
-                        <p><a href="tel:925-915-0977" target="_blank">+1 925 915 0977</a></p>
+                        <p><a href="tel:925-915-0977" target="_blank" rel="noopener noreferrer">+1 925 915 0977</a></p>
                     </div>
                     <div className="nav__contact">
                         <p>Email</p>
-                        <p><a href="">hello@tingroll.com</a></p>
+                        <p><a href="mailto:hello@tingroll.com" target="_blank" rel="noopener noreferrer">hello@tingroll.com</a></p>
                     </div>
                     <div className="nav__contact">
                         <p>Socials</p>
-                        <p><a href="">@tingrolls</a></p>
-                        <p><a href="">Linkedin</a></p>
+                        <p><a href="https://www.instagram.com/tingrolls/" target="_blank" rel="noopener noreferrer">@tingrolls</a></p>
+                        <p><a href="https://www.linkedin.com/in/jenevieveting/" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
                     </div>
                 </div>
             </div>

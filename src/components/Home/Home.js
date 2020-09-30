@@ -9,8 +9,8 @@ const Home = () => {
     return (
         <div className="home">
         {
-        projects.map(project => 
-            <div className="home__content">
+        projects.map((project, idx) => 
+            <div key={idx} className="home__content">
                 <Link to={`/${project.id}`}>
                     <div className="home__content-box">
                         {project.category}
