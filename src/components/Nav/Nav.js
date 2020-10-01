@@ -8,8 +8,19 @@ import profilePic from '../../assets/images/test.png'
 const Nav = () => {
     const [ isOpen, setIsOpen ] = useState(false)
     const [ clickedAbout, setClickedAbout ] = useState(false)
+    const [ clickedProjects, setClickedProjects ] = useState(false)
 
     window.onresize = () => (window.innerWidth > 700 && isOpen) && setIsOpen(false)
+
+    const projectClicked = () => {
+        setClickedProjects(true)
+        setClickedAbout(false)
+    }
+
+    const aboutClicked = () => {
+        setClickedAbout(true)
+        setClickedProjects(false)
+    }
 
     return (
         <div className="nav">
@@ -17,8 +28,8 @@ const Nav = () => {
                 <div className="nav__top">
                     <h2 onClick={() => setClickedAbout(false)} className="nav__header"><Link to="/">Jenevieve Ting</Link></h2>
                     <div className="nav__list">
-                        <p onClick={() => setClickedAbout(false)}><Link to="/">Projects</Link></p>,
-                        <p onClick={() => setClickedAbout(true)}><Link to="/about">About</Link></p>,
+                        <p onClick={projectClicked} className={clickedProjects ? 'underline' : ''}><Link to="/">Projects</Link></p>,
+                        <p onClick={aboutClicked} className={clickedAbout ? 'underline' : ''}><Link to="/about">About</Link></p>,
                         <p><Link to="/">Contact</Link></p>
                     </div>
                     <div className="nav__profile-pic">
