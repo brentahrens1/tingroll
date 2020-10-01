@@ -8,7 +8,7 @@ import profilePic from '../../assets/images/test.png'
 const Nav = () => {
     const [ isOpen, setIsOpen ] = useState(false)
     const [ clickedAbout, setClickedAbout ] = useState(false)
-    const [ clickedProjects, setClickedProjects ] = useState(false)
+    const [ clickedProjects, setClickedProjects ] = useState(true)
 
     window.onresize = () => (window.innerWidth > 700 && isOpen) && setIsOpen(false)
 
