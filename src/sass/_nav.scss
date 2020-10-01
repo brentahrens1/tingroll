@@ -4,14 +4,13 @@
 .nav {
 
     &__desktop {
-        width: 250px;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        padding: 1.5rem;
-        animation: gradient-border 30s linear infinite;
-        @include flex-column;
+        @include nav;
+        animation: gradient-border 60s linear infinite;
+    }
+
+    &__desktop-gradient {
+        @include nav;
+        animation: gradient-background 60s linear infinite;
     }
 
     .underline {
@@ -152,5 +151,26 @@
     }
     100% {
         border-right: 5px solid #C3B3FB;
+    }
+}
+
+@keyframes gradient-background {
+    0% {
+        background: #C3B3FB; 
+    }
+    20% {
+        background: #FAD5DD;
+    }
+    40% {
+        background: #76FF96;
+    }
+    60% {
+        background: #569CCD;
+    }
+    80% {
+        background: #B2A16F;
+    }
+    100% {
+        background: #C3B3FB;
     }
 }

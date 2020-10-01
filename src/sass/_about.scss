@@ -1,0 +1,23 @@
+@import './variables';
+@import './mixins';
+
+.about {
+    margin-left: 250px;
+    padding: 1rem;
+    overflow-x: hidden;
+
+    .home {
+        height: 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    &__image {
+        width: 40%;
+        margin-left: 11rem;
+
+        img {
+            width: 100%;
+        }
+    }
+}

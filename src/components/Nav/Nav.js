@@ -7,17 +7,18 @@ import profilePic from '../../assets/images/test.png'
 
 const Nav = () => {
     const [ isOpen, setIsOpen ] = useState(false)
+    const [ clickedAbout, setClickedAbout ] = useState(false)
 
     window.onresize = () => (window.innerWidth > 700 && isOpen) && setIsOpen(false)
 
     return (
         <div className="nav">
-            <div className="nav__desktop">
+            <div className={`${clickedAbout ? "nav__desktop-gradient" : "nav__desktop"}`}>
                 <div className="nav__top">
-                    <h2 className="nav__header"><Link to="/">Jenevieve Ting</Link></h2>
+                    <h2 onClick={() => setClickedAbout(false)} className="nav__header"><Link to="/">Jenevieve Ting</Link></h2>
                     <div className="nav__list">
-                        <p><Link to="/">Projects</Link></p>,
-                        <p><Link to="/">About</Link></p>,
+                        <p onClick={() => setClickedAbout(false)}><Link to="/">Projects</Link></p>,
+                        <p onClick={() => setClickedAbout(true)}><Link to="/about">About</Link></p>,
                         <p><Link to="/">Contact</Link></p>
                     </div>
                     <div className="nav__profile-pic">
