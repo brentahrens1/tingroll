@@ -18,6 +18,13 @@
             text-decoration: none;
         }
 
+        &:hover {
+            background: url('../assets/images/gradient-backgrounds/header1-background.png');
+            background-size: cover;
+            background-clip: text;
+            color: transparent;
+        }
+
         &:hover > a .home__content-decscription {
             background: url('../assets/images/gradient-backgrounds/description-background.png');
             background-clip: text;
@@ -32,6 +39,7 @@
 
         &:hover > a .header {
             background: url('../assets/images/gradient-backgrounds/header1-background.png');
+            background-size: cover;
             background-clip: text;
             color: transparent;
         }
