@@ -3,6 +3,7 @@
 
 .home {
     margin-left: 250px;
+    margin-bottom: 4rem;
     height: 100vh;
     overflow-x: hidden;
 
@@ -18,19 +19,27 @@
         }
 
         &:hover > a .home__content-decscription {
-            color: #59C75F;
+            background: url('../assets/images/gradient-backgrounds/description-background.png');
+            background-clip: text;
+            color: transparent;
         }
 
         &:hover > a .date {
-            color: #599DCB;
+            background: url('../assets/images/gradient-backgrounds/header2-background.png');
+            background-clip: text;
+            color: transparent;
         }
 
         &:hover > a .header {
-            color: #F9D5DD;
+            background: url('../assets/images/gradient-backgrounds/header1-background.png');
+            background-clip: text;
+            color: transparent;
         }
 
         &:hover > a .home__content-category {
-            color: #D3C7FA;
+            background: url('../assets/images/gradient-backgrounds/category-background.png');
+            background-clip: text;
+            color: transparent;
         }
 
         .home__content-box {

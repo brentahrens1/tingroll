@@ -90,7 +90,7 @@ const ProjectShow = ({ match }) => {
             }
             {
               project.id > 0 ?
-              <Link to={`/${project.id - 1}`}><p>Back</p></Link>
+              <Link to={`/${project.id - 1}`}><p>Previous</p></Link>
               : null
             }
         </div>

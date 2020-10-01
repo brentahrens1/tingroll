@@ -10,7 +10,7 @@
         top: 0;
         left: 0;
         padding: 1.5rem;
-        border-right: 5px solid $border-green;
+        animation: gradient-border 30s linear infinite;
         @include flex-column;
     }
 
@@ -131,5 +131,26 @@
         .active {
             left: 0;
         }
+    }
+}
+
+@keyframes gradient-border {
+    0% {
+        border-right: 5px solid #C3B3FB; 
+    }
+    20% {
+        border-right: 5px solid #FAD5DD;
+    }
+    40% {
+        border-right: 5px solid #76FF96;
+    }
+    60% {
+        border-right: 5px solid #569CCD;
+    }
+    80% {
+        border-right: 5px solid #B2A16F;
+    }
+    100% {
+        border-right: 5px solid #C3B3FB;
     }
 }
