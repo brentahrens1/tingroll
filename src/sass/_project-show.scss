@@ -4,6 +4,7 @@
 .project-show {
     margin-left: 250px;
     padding: 25px;
+    padding-top: 18px;
     overflow-x: hidden;
     position: relative;
 
@@ -16,10 +17,15 @@
         margin-bottom: 0;
         width: 100%;
         height: 100%;
+
         .home__content {
             padding: 0;
             padding-top: 0;
             margin-bottom: 0;
+
+            .home__content-category {
+                margin-left: 0;
+            }
         }
     }
 
@@ -84,7 +90,7 @@
         .show__credits {
             width: 400px;
             text-align: left;
-            margin-bottom: 2rem;
+            margin-bottom: 75px;
 
             .show__credits-section {
                 display: flex;
@@ -178,7 +184,8 @@
     &__back {
         color: $primary-font-color;
         position: absolute;
-        right: 1rem;
+        right: 0;
+        margin-right: 25px;
         z-index: 999;
     }
 
