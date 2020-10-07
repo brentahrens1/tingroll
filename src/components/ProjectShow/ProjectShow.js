@@ -37,7 +37,6 @@ const ProjectShow = ({ match }) => {
             {project.type === "interview" ? 
               <div className="interview">
                 <div className="interview__top">
-                  <div className="spacer" />
                   <div className="interview__top-img">
                     {project.topImage}
                   </div>

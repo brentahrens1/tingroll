@@ -133,7 +133,9 @@ export const projects = [
         pullQuote:<>
                     <p>Gloria Pull Quote</p>
                     <div className="interview__pull-quote">
-                        <h3>“But if those hopes weren’t already real inside you, you couldn’t hope them. So it makes no sense to allow those to be taken away from you because you have the power to hang onto them”.</h3>
+                        <div className="interview__pull-quote-inner">
+                            <h3>“But if those hopes weren’t already real inside you, you couldn’t hope them. So it makes no sense to allow those to be taken away from you because you have the power to hang onto them”.</h3>
+                        </div>
                     </div>
                 </>,
         credits: <><div className="show__credits-section"><p>Website</p><p>Reader.acehotel.com</p></div><div className="show__credits-section"><p>Interviewer</p><p>Jenevieve Ting</p></div><div className="show__credits-section"><p>Interview</p><p>Gloria Steinam</p></div></>

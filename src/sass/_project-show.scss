@@ -64,15 +64,16 @@
         }
 
         .interview__top {
-            display: flex;
+            position: relative;
 
-            .spacer {
-                width: 20%;
+            .interview__question-first {
+                padding-left: 11rem;
             }
 
             .interview__top-img {
                 width: 100%;
                 margin-top: 1rem;
+                padding-left: 11rem;
 
                 img {
                     width: 100%;
@@ -81,6 +82,9 @@
         }
 
         .interview__section-tag {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 17%;
             font-size: .9rem;
             line-height: 1;
@@ -95,25 +99,31 @@
         }
 
         .interview__question:not(:nth-child(1)) {
-            margin-left: 17%;
+            padding-left: 11rem;
         }
 
         .interview__pull-quote-section {
-            display: flex;
+            position: relative;
             margin-top: 2rem;
             margin-bottom: 2rem;
 
             p {
-                width: 20%;
+                position: absolute;
+                top: 0;
+                left: 0;
             }
 
             .interview__pull-quote {
-                width: 80%;
-                font-size: 1.8rem;
-                background:  #EBF1F8;
-                padding: 5rem;
+                width: 100%;
+                padding-left: 11rem;
+
+                .interview__pull-quote-inner {
+                    background:  #EBF1F8;
+                    padding: 5rem;
+                }
                 
                 h3 {
+                    font-size: 1.8rem;
                     transform: rotate(-6deg);
                 }
             }
@@ -142,15 +152,17 @@
         margin-top: 2rem;
 
         &__top {
-            display: flex;
+            position: relative;
 
             .tag {
-                width: 20%;
-                min-width: 150px;
+                position: absolute;
+                top: 0;
+                left: 0;
             }
 
             .show__top-img {
                 width: 100%;
+                padding-left: 11rem;
 
                 img {
                     width: 100%;
@@ -279,14 +291,6 @@
     
             .interview__section-tag {
                 width: 100%;
-            }
-
-            .interview__question:not(:nth-child(1)) {
-                margin-left: 4%;
-            }
-
-            .interview__question-first {
-                margin-left: 4%;
             }
     
             .interview__pull-quote-section {

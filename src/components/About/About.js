@@ -21,7 +21,6 @@ const About = () => {
                 </div>
             </div>
             <div className="about__image-container">
-              <div className="spacer" />
               <div className="about__image">
                   <img src={profile} alt="Jenevieve Ting" />
               </div>

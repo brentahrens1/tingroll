@@ -28,14 +28,10 @@
     }
 
     .about__image-container {
-        display: flex;
-
-        .spacer {
-            width: 13rem;
-        }
 
         .about__image {
             width: 100%;
+            padding-left: 11rem;
     
             img {
                 width: 100%;
