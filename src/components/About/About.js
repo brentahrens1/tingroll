@@ -20,8 +20,11 @@ const About = () => {
                   </div>
                 </div>
             </div>
-            <div className="about__image">
-                <img src={profile} alt="Jenevieve Ting" />
+            <div className="about__image-container">
+              <div className="spacer" />
+              <div className="about__image">
+                  <img src={profile} alt="Jenevieve Ting" />
+              </div>
             </div>
             <div className="about__bottom-content">
               <h1>Say hi if you like ♡ (✿ ͡◕ ᴗ◕)つ━━✫・*。</h1>

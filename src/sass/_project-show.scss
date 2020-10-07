@@ -218,7 +218,7 @@
         position: absolute;
         right: 0;
         margin-right: 25px;
-        z-index: 999;
+        z-index: 998;
 
         p:hover {
             background: url('../assets/images/gradient-backgrounds/header2-background.png');
@@ -258,6 +258,15 @@
     .project-show {
         margin-left: 0;
 
+        .home {
+    
+            .home__content {
+                .home__content-category {
+                    margin: 0;
+                }
+            }
+        }
+
         .interview {
 
             h1 {
@@ -296,6 +305,10 @@
     
             &__top {
                 flex-direction: column;
+
+                .tag {
+                    margin-bottom: 1rem;
+                }
     
                 p {
                     width: 20%;
@@ -314,6 +327,10 @@
     
             &__section {
                 flex-direction: column;
+
+                .show__section-date-tag {
+                    margin-bottom: 1rem;
+                }
     
                 .show__section-content {
     
