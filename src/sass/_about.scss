@@ -10,6 +10,13 @@
         height: 100%;
         margin-left: 0;
         margin-bottom: 0;
+
+        &__content {
+            &:hover {
+                background: none;
+                color: initial;
+            }
+        }
     }
 
     &__image {
@@ -19,5 +26,11 @@
         img {
             width: 100%;
         }
+    }
+}
+
+@media (max-width: $mobile) {
+    .about {
+        margin-left: 0;
     }
 }
