@@ -93,7 +93,12 @@
         display: none;
         padding: 1rem;
         margin-top: 2rem;
-        border-bottom: 5px solid $border-green;
+        animation: gradient-border-mobile 60s linear infinite;
+
+        .nav__header-mobile a {
+            font-size: 22.4px;
+            font-family: 'cirka-medium';
+        }
 
         .nav__target, .nav__target-gradient {
             height: 35px;
@@ -117,9 +122,8 @@
         height: 55%;
         min-height: 430px;
         position: absolute;
-        top: 0;
-        left: -100%;
-        transition: left 300ms ease-in-out;
+        top: -100%;
+        transition: top 600ms ease-in-out;
         background: $secondary-font-color;
         z-index: 999;
         animation: gradient-border-mobile 60s linear infinite;
@@ -173,7 +177,7 @@
         }
 
         .active {
-            left: 0;
+            top: 0;
         }
     }
 }

@@ -15,11 +15,13 @@ const Nav = () => {
     const projectClicked = () => {
         setClickedProjects(true)
         setClickedAbout(false)
+        setIsOpen(!isOpen)
     }
 
     const aboutClicked = () => {
         setClickedAbout(true)
         setClickedProjects(false)
+        setIsOpen(!isOpen)
     }
 
     return (
@@ -56,12 +58,12 @@ const Nav = () => {
                 </div>
             </div>
             <div className="nav__mobile">
-                <h2 className="nav__header-mobile">Jenevieve Ting</h2>
+                <h2 className="nav__header-mobile"><Link to="/">Jenevieve Ting</Link></h2>
                 <div className={`${isOpen ? "nav__target-gradient" : "nav__target"}`} onClick={() => setIsOpen(!isOpen)} />
             </div>
             <div className={`overlay ${isOpen ? 'active' : ''}`}>
                 <div className="nav__top">
-                    <h2 onClick={() => setClickedAbout(false)} className="nav__header"><Link to="/">Jenevieve Ting</Link></h2>
+                    <h2 onClick={() => setIsOpen(!isOpen)} className="nav__header"><Link to="/">Jenevieve Ting</Link></h2>
                     <div className="nav__list">
                         <p onClick={projectClicked} className={clickedProjects ? 'underline' : ''}><Link to="/">Projects</Link></p>,
                         <p onClick={aboutClicked} className={clickedAbout ? 'underline' : ''}><Link to="/about">About</Link></p>
