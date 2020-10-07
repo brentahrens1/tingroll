@@ -23,7 +23,7 @@ export const projects = [
         type: 'poem',
         category: <p className="home__content-category">Performance & Poem</p>,
         header: <h1 className="home__content-header header">Queer Love Is Spacious</h1>,
-        date: <h1 className="home__content-header date">July 2020–Present</h1>,
+        date: <h1 className="home__content-header date">July 2020</h1>,
         description: <p className="home__content-decscription">How can a queer & non-binary lens or "framework" help us to better access other parts of ourselves with a greater sense of love & imagination? This recurring writing, thinking, and feeling workshop focuses on the ways QTBIPOC love can be rooted in & guided by a belief in spaciousness, the ceaseless ebb & flow of our own expansion, and how queerness is its own form of poetry.</p>,
         id: 0,
         tag: <div className="tag"><p>Photo:<br /> "Grand Country"<br /> for Asian America:<br /> The Future is Now</p></div>,

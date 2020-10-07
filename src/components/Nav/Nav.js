@@ -30,7 +30,6 @@ const Nav = () => {
                     <div className="nav__list">
                         <p onClick={projectClicked} className={clickedProjects ? 'underline' : ''}><Link to="/">Projects</Link></p>,
                         <p onClick={aboutClicked} className={clickedAbout ? 'underline' : ''}><Link to="/about">About</Link></p>,
-                        <p><Link to="/">Contact</Link></p>
                     </div>
                     <div className="nav__profile-pic">
                         <img src={profilePic} alt="Jenevieve Ting" />
@@ -64,7 +63,6 @@ const Nav = () => {
                 <div className="overlay__links">
                     <h2>Projects</h2>
                     <h2>About</h2>
-                    <h2>Contact</h2>
                 </div>
             </div>
         </div>

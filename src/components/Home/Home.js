@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../sass/_home.scss'
 
 import { Link } from 'react-router-dom'
@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import { projects} from '../../const/projects'
 
 const Home = () => {
+
     return (
         <div className="home">
         {
@@ -13,14 +14,22 @@ const Home = () => {
             <div key={idx} className="home__content">
                 <Link to={`/${project.id}`}>
                     <div className="home__content-box">
-                        {project.category}
-                        {project.header}
+                        <div>
+                            {project.category}
+                        </div>
+                        <div>
+                            {project.header}
+                        </div>
                     </div>
                     <div className="home__content-box-2">
                         <div className="floating-div">
-                            {project.date}
+                            <div>
+                                {project.date}
+                            </div>
                         </div>
-                        {project.description}
+                        <div>
+                            {project.description}
+                        </div>
                     </div>
                 </Link>
             </div>
