@@ -37,6 +37,13 @@
         font-size: $p;
         margin-bottom: $margin-bottom;
 
+        p a:hover {
+            background: url('../assets/images/gradient-backgrounds/header1-background.png');
+            background-size: cover;
+            background-clip: text;
+            color: transparent;
+        }
+
         p:not(:nth-child(1)) {
             margin-left: .3rem;
         }
