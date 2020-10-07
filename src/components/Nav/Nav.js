@@ -29,7 +29,7 @@ const Nav = () => {
                     <h2 onClick={() => setClickedAbout(false)} className="nav__header"><Link to="/">Jenevieve Ting</Link></h2>
                     <div className="nav__list">
                         <p onClick={projectClicked} className={clickedProjects ? 'underline' : ''}><Link to="/">Projects</Link></p>,
-                        <p onClick={aboutClicked} className={clickedAbout ? 'underline' : ''}><Link to="/about">About</Link></p>,
+                        <p onClick={aboutClicked} className={clickedAbout ? 'underline' : ''}><Link to="/about">About</Link></p>
                     </div>
                     <div className="nav__profile-pic">
                         <img src={profilePic} alt="Jenevieve Ting" />
@@ -42,16 +42,16 @@ const Nav = () => {
                 <div className="nav__bottom">
                     <div className="nav__contact">
                         <p>Telephone</p>
-                        <p><a href="tel:925-915-0977" target="_blank" rel="noopener noreferrer">+1 925 915 0977</a></p>
+                        <p className="phone"><a href="tel:925-915-0977" target="_blank" rel="noopener noreferrer">+1 925 915 0977</a></p>
                     </div>
                     <div className="nav__contact">
                         <p>Email</p>
-                        <p><a href="mailto:hello@tingroll.com" target="_blank" rel="noopener noreferrer">hello@tingroll.com</a></p>
+                        <p className="email"><a href="mailto:hello@tingroll.com" target="_blank" rel="noopener noreferrer">hello@tingroll.com</a></p>
                     </div>
                     <div className="nav__contact">
                         <p>Socials</p>
-                        <p><a href="https://www.instagram.com/tingrolls/" target="_blank" rel="noopener noreferrer">@tingrolls</a></p>
-                        <p><a href="https://www.linkedin.com/in/jenevieveting/" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
+                        <p className="instagram"><a href="https://www.instagram.com/tingrolls/" target="_blank" rel="noopener noreferrer">@tingrolls</a></p>
+                        <p className="linkedin"><a href="https://www.linkedin.com/in/jenevieveting/" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
                     </div>
                 </div>
             </div>

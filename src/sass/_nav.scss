@@ -61,6 +61,32 @@
         &:not(:nth-child(1)) {
             margin-top: 1rem;
         }
+
+        .phone a:hover {
+            background: url('../assets/images/gradient-backgrounds/header1-background.png');
+            background-size: cover;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .email a:hover {
+            background: url('../assets/images/gradient-backgrounds/header2-background.png');
+            background-clip: text;
+            color: transparent;
+        }
+
+        .instagram a:hover {
+            background: url('../assets/images/gradient-backgrounds/header1-background.png');
+            background-size: cover;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .linkedin a:hover {
+            background: url('../assets/images/gradient-backgrounds/category-background.png');
+            background-clip: text;
+            color: transparent;
+        }
     }
 
     &__mobile {

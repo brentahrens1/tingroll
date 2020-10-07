@@ -10,6 +10,10 @@
 
     a:link, a:visited {
         color: #000;
+
+        &:hover {
+            text-decoration: none;
+        }
     }
 
     .home {
@@ -25,6 +29,27 @@
 
             .home__content-category {
                 margin-left: 0;
+            }
+
+            &:hover {
+                background: none;
+                color: initial;
+            }
+    
+            &:hover > a .home__content-decscription {
+                background: none;
+            }
+    
+            &:hover > a .date {
+                background: none;
+            }
+    
+            &:hover > a .header {
+                background: none;
+            }
+    
+            &:hover > a .home__content-category {
+                background: none;
             }
         }
     }
@@ -60,6 +85,13 @@
             font-size: .9rem;
             line-height: 1;
             margin-top: 1.5rem;
+
+            .tag-link a:hover {
+                background: url('../assets/images/gradient-backgrounds/header1-background.png');
+                background-size: cover;
+                background-clip: text;
+                color: transparent;
+            }
         }
 
         .interview__question:not(:nth-child(1)) {
@@ -187,11 +219,38 @@
         right: 0;
         margin-right: 25px;
         z-index: 999;
+
+        p:hover {
+            background: url('../assets/images/gradient-backgrounds/header2-background.png');
+            background-clip: text;
+            color: transparent;
+        }
     }
 
     .scroll-top {
         text-decoration: underline;
+        display: inline;
         cursor: pointer;
+
+        &:hover {
+            background: url('../assets/images/gradient-backgrounds/header1-background.png');
+            background-size: cover;
+            background-clip: text;
+            color: transparent;
+        }
+    }
+
+    .next:hover {
+        background: url('../assets/images/gradient-backgrounds/category-background.png');
+        background-clip: text;
+        color: transparent;
+    }
+
+    .previous:hover {
+        background: url('../assets/images/gradient-backgrounds/header1-background.png');
+        background-size: cover;
+        background-clip: text;
+        color: transparent;
     }
 }
 

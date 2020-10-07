@@ -108,7 +108,7 @@ export const projects = [
         tag:<div className="interview__top">
                 <div className="interview__section-tag">
                     <p>Full interview on</p>
-                    <p><a href="http://reader.acehotel.com/writing/the-truth-will-set-you-free-but-first-it-will-piss-you-off-interview-with-gloria-steinem/" target="_blank" rel="noopener noreferrer">Ace Reader</a></p>
+                    <p className="tag-link"><a href="http://reader.acehotel.com/writing/the-truth-will-set-you-free-but-first-it-will-piss-you-off-interview-with-gloria-steinem/" target="_blank" rel="noopener noreferrer">Ace Reader</a></p>
                     <p>4:00 min</p>
                 </div>
                 <div className="interview__question-first interview__lines">
