@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../../sass/_home.scss'
 
 import { Link } from 'react-router-dom'

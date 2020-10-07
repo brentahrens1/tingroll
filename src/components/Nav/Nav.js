@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../../sass/_nav.scss'
 
 import { Link } from 'react-router-dom'
@@ -9,6 +9,8 @@ const Nav = () => {
     const [ isOpen, setIsOpen ] = useState(false)
     const [ clickedAbout, setClickedAbout ] = useState(false)
     const [ clickedProjects, setClickedProjects ] = useState(true)
+    const [ date, setDate ] = useState('')
+    const [ weather, setWeather ] = useState('')
 
     window.onresize = () => (window.innerWidth > 700 && isOpen) && setIsOpen(false)
 
@@ -24,6 +26,22 @@ const Nav = () => {
         setIsOpen(!isOpen)
     }
 
+    const getCurrentDate =() => {
+        const dateWithouthSecond = new Date();
+        setDate(dateWithouthSecond.toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'}))
+    }
+
+    useEffect(() => {
+        const weatherKey = process.env.REACT_APP_WEATHER_API_KEY
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=Los Angeles,us&units=metric&appid=${weatherKey}`)
+            .then(res => res.json())
+            .then(data => {
+                setWeather(Math.floor(data.main.temp * 1.8 + 32))
+            })
+            .catch(err => console.log(err))
+        getCurrentDate()
+    }, [])
+    
     return (
         <div className="nav">
             <div className={`${clickedAbout ? "nav__desktop-gradient" : "nav__desktop"}`}>
@@ -38,7 +56,7 @@ const Nav = () => {
                     </div>
                     <div className="nav__location">
                         <p>Los Angeles, CA</p>
-                        <p>7:03PM 80 Degrees</p>
+                        <p>{date} {weather} Degrees</p>
                     </div>
                 </div>
                 <div className="nav__bottom">
