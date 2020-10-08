@@ -65,6 +65,7 @@
 
         .interview__top {
             position: relative;
+            display: flex;
 
             .interview__question-first {
                 padding-left: 11rem;
@@ -87,7 +88,7 @@
             left: 0;
             width: 17%;
             font-size: .9rem;
-            line-height: 1;
+            line-height: 1.2;
             margin-top: 1.5rem;
 
             .tag-link a:hover {
@@ -153,6 +154,7 @@
 
         &__top {
             position: relative;
+            display: flex;
 
             .tag {
                 position: absolute;
@@ -287,20 +289,49 @@
     
             .interview__top {
                 flex-direction: column;
+
+                .interview__top-img {
+                    padding: 0;
+                }
+
+                .interview__question-first {
+                    padding-left: 2rem;
+                }
+            }  
+            
+            .interview__question:not(:nth-child(1)) {
+                padding-left: 2rem;
             }
     
             .interview__section-tag {
                 width: 100%;
+                position: relative;
             }
     
             .interview__pull-quote-section {
                 flex-direction: column;
+
+                p {
+                    position: relative;
+                    margin-bottom: 1rem;
+                }
     
                 .interview__pull-quote {
                     width: 100%;
                     font-size: 1.3rem;
-                    padding: 3rem;
+                    padding: 0;
+
+                    .interview__pull-quote-inner {
+                        padding: 2.5rem;
+                    }
+
+                    h3 {
+                        font-size: 1.3rem;
+                    }
                 }
+            }
+            .show__credits {
+                width: 100%;
             }
         }
         
@@ -312,6 +343,7 @@
 
                 .tag {
                     margin-bottom: 1rem;
+                    position: relative;
                 }
     
                 p {
@@ -322,7 +354,8 @@
     
                 .show__top-img {
                     width: 100%;
-    
+                    padding: 0;
+
                     img {
                         width: 100%;
                     }
@@ -340,6 +373,7 @@
     
                     h1 {
                         font-size: 3.5rem;
+                        line-height: .9;
                     }
                 }
             }
@@ -350,6 +384,17 @@
                     width: 100%;
                 }
             }
+
+            .show__credits {
+                width: 100%;
+            }
         }
     }   
+}
+
+@media (max-width: 400px) {
+    .home .home__content-box-2 h1 {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
 }
