@@ -3,7 +3,7 @@ import '../../sass/_nav.scss'
 
 import { Link } from 'react-router-dom'
 
-import profilePic from '../../assets/images/test.png'
+import profilePic from '../../assets/images/ProfilePic/profile-pic.JPG'
 
 const Nav = () => {
     const [ isOpen, setIsOpen ] = useState(false)
