@@ -26,7 +26,6 @@ const About = () => {
               </div>
             </div>
             <div className="about__bottom-content">
-              <h1>Say hi if you like ♡ (✿ ͡◕ ᴗ◕)つ━━✫・*。</h1>
               <div className="about-credits">
                 <div className="about-credits__section">
                   <p>Photography</p>
