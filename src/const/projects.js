@@ -56,7 +56,7 @@ export const projects = [
         date: <h1 className="home__content-header date">July 2020</h1>,
         description: <p className="home__content-decscription">How can a queer & non-binary lens or "framework" help us to better access other parts of ourselves with a greater sense of love & imagination? This recurring writing, thinking, and feeling workshop focuses on the ways QTBIPOC love can be rooted in & guided by a belief in spaciousness, the ceaseless ebb & flow of our own expansion, and how queerness is its own form of poetry.</p>,
         id: 0,
-        showBody: <div className="iframe-container"><iframe className="responsive-iframe" src="https://player.vimeo.com/video/466430041" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>,
+        showBody: <div className="iframe-container"><iframe className="responsive-iframe" title="Queer Love Is Spacious" src="https://player.vimeo.com/video/466430041" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
         tag: <div className="tag"><p>Photo:<br /> "Grand Country"<br /> for Asian America:<br /> The Future is Now</p></div>,
         topImage: <img src={Spacious} alt='Jenevieve Ting | Queer Love Is Spacious' />,
     },
@@ -72,7 +72,7 @@ export const projects = [
         imageTwo: <img src={AtelierAce2} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
         imageThree: <img src={AtelierAce3} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
         showBody:<p>[Extended Copy]
-        Wrote, edited, and oversaw brand voice across all domestic & international Ace Hotel properties, venues, performance spaces, food & beverage outlets, social media channels, and retail partners. Edited, strategized, and conceptualized digital advertising and content for <a href="#" target="_blank">Ace
+        Wrote, edited, and oversaw brand voice across all domestic & international Ace Hotel properties, venues, performance spaces, food & beverage outlets, social media channels, and retail partners. Edited, strategized, and conceptualized digital advertising and content for <a href="http://reader.acehotel.com/" target="_blank" rel="noopener noreferrer">Ace
         Reader</a>, an online platform highlighting arts & culture across Ace properties</p>,
     },
     //Netflix's “Queer is Beautiful”
@@ -81,9 +81,9 @@ export const projects = [
         category: <p className="home__content-category">Poem / Performance</p>,
         header: <h1 className="home__content-header header">Netflix's “Queer is Beautiful”</h1>,
         date: <h1 className="home__content-header date">August 2020</h1>,
-        description: <p className="home__content-decscription">A Pride variety showcase for LGBTQIA+ artists, musicians, poets (including me!), and comedians for Netflix’s internal team, hosted by Alyssa Edwards. Video performance shot and edited by my dear friend & collaborator <a href="https://www.kyokotakenaka.com/" target="_blank">Kyoko Takenaka.</a></p>,
+        description: <p className="home__content-decscription">A Pride variety showcase for LGBTQIA+ artists, musicians, poets (including me!), and comedians for Netflix’s internal team, hosted by Alyssa Edwards. Video performance shot and edited by my dear friend & collaborator Kyoko Takenaka.</p>,
         id: 2,
-        showBody: <div className="iframe-container"><iframe className="responsive-iframe" src="https://player.vimeo.com/video/466426169" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>,
+        showBody: <div className="iframe-container"><iframe className="responsive-iframe" title="Queer is Beautiful" src="https://player.vimeo.com/video/466426169" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
         topImage: <img src={Netflix} alt='Jenevieve Ting | Netflix Queer is Beautiful' />,
     },
     //Loves Me | Loves Me Not
@@ -92,7 +92,7 @@ export const projects = [
         category: <p className="home__content-category">Zine / Community</p>,
         header: <h1 className="home__content-header header">Loves Me | Loves Me Not</h1>,
         date: <h1 className="home__content-header date">2017–2020</h1>,
-        description: <p className="home__content-decscription">A yearly Valentine’s Day zine co-edited, compiled and curated by me and my best friend Nikita Lamba, featuring work entirely by queer, trans, non-binary, and women artists of color. Our fourth volume was designed by <a href="http://www.jimena.info/" target="_blank">Jimena Gamio</a>. You can see it in full <a href="https://lovesmezine.format.com/" target="_blank">here.</a></p>,
+        description: <p className="home__content-decscription">A yearly Valentine’s Day zine co-edited, compiled and curated by me and my best friend Nikita Lamba, featuring work entirely by queer, trans, non-binary, and women artists of color. Our fourth volume was designed by Jimena Gamio. You can see it in full here.</p>,
         id: 3,
         topImage: <img src={Zine1} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
         imageTwo: <img src={Zine2} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
@@ -188,9 +188,9 @@ export const projects = [
         category: <p className="home__content-category">Poem / Installation </p>,
         header: <h1 className="home__content-header header">“It Takes A Wet Season”</h1>,
         date: <h1 className="home__content-header date">September 2020</h1>,
-        description: <p className="home__content-decscription">I created this visual poem made of 8 feet of plexiglass, vinyl, and a whole lot of love for my friends at <a href="https://www.instagram.com/studiolovealot/" target="_blank">Studio Love A Lot</a> — an extended community of creatives, makers, collaborators, lovers, and friends supporting friends — and their inaugural show, titled “No White Cubes,” which aims to prioritize accessibility to art, community gathering, and space making.</p>,
+        description: <p className="home__content-decscription">I created this visual poem made of 8 feet of plexiglass, vinyl, and a whole lot of love for my friends at Studio Love A Lot — an extended community of creatives, makers, collaborators, lovers, and friends supporting friends — and their inaugural show, titled “No White Cubes,” which aims to prioritize accessibility to art, community gathering, and space making.</p>,
         id: 6,
-        showBody: <div className="iframe-container"><iframe className="responsive-iframe" src="https://player.vimeo.com/video/466428216" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>,
+        showBody: <div className="iframe-container"><iframe className="responsive-iframe" title="Wet Season" src="https://player.vimeo.com/video/466428216" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
         topImage: <img src={WetSeason} alt='Jenevieve Ting | “It Takes A Wet Season”' />,
         imageTwo: <img src={WetSeason2} alt='Jenevieve Ting | “It Takes A Wet Season”' />,
     },
@@ -200,7 +200,7 @@ export const projects = [
         category: <p className="home__content-category">Poem / Performance</p>,
         header: <h1 className="home__content-header header">Rooted Love</h1>,
         date: <h1 className="home__content-header date">March 2017</h1>,
-        description: <p className="home__content-decscription">In collaboration with my friend & artistic daydream <a href="https://www.kyokotakenaka.com/" target="_blank">Kyoko Takenaka</a>, I performed a spoken word piece titled “Yellow Rose” at <a href="https://www.h-r.la/" target="_blank">Human Resources LA</a> for Rooted Love, a multidisciplinary evening full of visual and performance art, music and healing.</p>,
+        description: <p className="home__content-decscription">In collaboration with my friend & artistic daydream Kyoko Takenaka, I performed a spoken word piece titled “Yellow Rose” at Human Resources LA for Rooted Love, a multidisciplinary evening full of visual and performance art, music and healing.</p>,
         id: 7,
         showBody: <div className="poem"><p>
                         my grandmother’s favorite flower is a yellow rose
@@ -398,7 +398,7 @@ export const projects = [
         category: <p className="home__content-category">Poem / Performance</p>,
         header: <h1 className="home__content-header header">“water populates me more than grief”</h1>,
         date: <h1 className="home__content-header date">July 2019</h1>,
-        description: <p className="home__content-decscription">I created an art installation for a larger gallery exhibit at Plaza de la Raza in Los Angeles called “Territory of the Human Heart,” as part of that year’s De Todos Lados fundraiser and benefit concert in support of <a href="https://alotrolado.org/" target="_blank">Al Otro Lado</a>, a nonprofit organization working to reunite families, support refugees, and uphold the rights of immigrants & asylum seekers.</p>,
+        description: <p className="home__content-decscription">I created an art installation for a larger gallery exhibit at Plaza de la Raza in Los Angeles called “Territory of the Human Heart,” as part of that year’s De Todos Lados fundraiser and benefit concert in support of Al Otro Lado, a nonprofit organization working to reunite families, support refugees, and uphold the rights of immigrants & asylum seekers.</p>,
         id: 8,
         topImage: <img src={Water1} alt='Jenevieve Ting | “water populates me more than grief”' />,
         imageTwo: <img src={Water2} alt='Jenevieve Ting | “water populates me more than grief”' />,

@@ -16,6 +16,8 @@
         }
     }
 
+    // title and description at the top of the show page
+
     .home {
         margin-left: 0;
         margin-bottom: 0;
@@ -53,6 +55,8 @@
             }
         }
     }
+
+    // Interview show page styles
 
     .interview {
         h1 {
@@ -131,6 +135,7 @@
         }
     }
 
+    // Any other genre other than interview styles
 
     .show {
         width: 100%;
@@ -177,7 +182,6 @@
                     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
                   }
                   
-                  /* Then style the iframe to fit in the container div with full height and width */
                   .responsive-iframe {
                     position: absolute;
                     top: 0;
@@ -239,6 +243,8 @@
         }
     }
 
+    // Back btn at top of show pages
+
     &__back {
         color: $primary-font-color;
         position: absolute;
@@ -252,6 +258,8 @@
             color: transparent;
         }
     }
+
+    // Btns at the bottom of all show pages
 
     .scroll-top {
         text-decoration: underline;
@@ -292,6 +300,8 @@
                 }
             }
         }
+
+        // Mobile interview styles
 
         .interview {
 
@@ -336,6 +346,7 @@
             }
         }
         
+        // Mobile other genre styles
 
         .show {
     
