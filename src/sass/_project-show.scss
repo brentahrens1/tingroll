@@ -104,30 +104,14 @@
         }
 
         .interview__pull-quote-section {
-            position: relative;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
+           .pull-quote-img {
+               width: 70%;
+               padding-left: 11rem;
 
-            p {
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
-
-            .interview__pull-quote {
-                width: 100%;
-                padding-left: 11rem;
-
-                .interview__pull-quote-inner {
-                    background:  #EBF1F8;
-                    padding: 5rem;
-                }
-                
-                h3 {
-                    font-size: 1.8rem;
-                    transform: rotate(-6deg);
-                }
-            }
+               img {
+                   width: 100%;
+               }
+           }
         }
 
         .show__credits {
@@ -175,19 +159,28 @@
         &__section {
             display: flex;
             margin-top: 2rem;
+            position: relative;
 
             .show__section-date-tag {
-                width: 20%;
-                min-width: 150px;
+                position: absolute;
+                top: 0;
+                left: 0;
             }
 
             .show__section-content {
                 width: 100%;
 
+                .poem {
+                    width: 70%;
+                    min-width: 640px;
+                    padding-left: 11rem;
+                }
+
                 h1 {
                     font-size: 4.5rem;
                     line-height: .5;
                     margin-bottom: 2rem;
+                    padding-left: 11rem;
                 }
 
                 p {
@@ -309,24 +302,13 @@
             }
     
             .interview__pull-quote-section {
-                flex-direction: column;
 
-                p {
-                    position: relative;
-                    margin-bottom: 1rem;
-                }
-    
-                .interview__pull-quote {
+                .pull-quote-img {
                     width: 100%;
-                    font-size: 1.3rem;
-                    padding: 0;
-
-                    .interview__pull-quote-inner {
-                        padding: 2.5rem;
-                    }
-
-                    h3 {
-                        font-size: 1.3rem;
+                    padding-left: 0rem;
+        
+                    img {
+                        width: 100%;
                     }
                 }
             }
@@ -367,13 +349,25 @@
 
                 .show__section-date-tag {
                     margin-bottom: 1rem;
+                    position: relative;
                 }
     
                 .show__section-content {
+
+                    .poem {
+                        padding-left: 0;
+                        width: 100%;
+                        min-width: 100%;
+                    }
+
+                    .poem p {
+                        margin: 0;
+                    }
     
                     h1 {
                         font-size: 3.5rem;
                         line-height: .9;
+                        padding-left: 0;
                     }
                 }
             }

@@ -37,6 +37,12 @@ $randomImg: random(4);
             color: transparent;
         }
 
+        &:hover a {
+            background: url('../assets/images/gradient-backgrounds/header2-background.png');
+            background-clip: text;
+            color: transparent;
+        }
+
         &:hover > a .home__content-decscription {
             background: url('../assets/images/gradient-backgrounds/description-background.png');
             background-clip: text;
@@ -88,6 +94,10 @@ $randomImg: random(4);
                 margin: 0 auto;
                 margin-left: 11rem;
                 padding-top: 4rem;
+
+                a:link, a:visited {
+                    text-decoration: underline;
+                }
             }
         }
 
@@ -116,7 +126,7 @@ $randomImg: random(4);
         
         .home__content-box-2 {
 
-            p {
+            p, a {
                 font-size: $p-extra-wide;
                 padding-top: 4.8rem;
             }
