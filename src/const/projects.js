@@ -51,11 +51,12 @@ export const projects = [
     //Queer Love Is Spacious
     {
         type: 'Workshop',
-        category: <p className="home__content-category">Performance & Poem</p>,
+        category: <p className="home__content-category">Workshop</p>,
         header: <h1 className="home__content-header header">Queer Love Is Spacious</h1>,
         date: <h1 className="home__content-header date">July 2020</h1>,
         description: <p className="home__content-decscription">How can a queer & non-binary lens or "framework" help us to better access other parts of ourselves with a greater sense of love & imagination? This recurring writing, thinking, and feeling workshop focuses on the ways QTBIPOC love can be rooted in & guided by a belief in spaciousness, the ceaseless ebb & flow of our own expansion, and how queerness is its own form of poetry.</p>,
         id: 0,
+        showBody: <div className="iframe-container"><iframe className="responsive-iframe" src="https://player.vimeo.com/video/466430041" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>,
         tag: <div className="tag"><p>Photo:<br /> "Grand Country"<br /> for Asian America:<br /> The Future is Now</p></div>,
         topImage: <img src={Spacious} alt='Jenevieve Ting | Queer Love Is Spacious' />,
     },
@@ -76,12 +77,13 @@ export const projects = [
     },
     //Netflix's “Queer is Beautiful”
     {
-        type: 'poem',
+        type: 'Poem / Performance',
         category: <p className="home__content-category">Poem / Performance</p>,
         header: <h1 className="home__content-header header">Netflix's “Queer is Beautiful”</h1>,
         date: <h1 className="home__content-header date">August 2020</h1>,
         description: <p className="home__content-decscription">A Pride variety showcase for LGBTQIA+ artists, musicians, poets (including me!), and comedians for Netflix’s internal team, hosted by Alyssa Edwards. Video performance shot and edited by my dear friend & collaborator <a href="https://www.kyokotakenaka.com/" target="_blank">Kyoko Takenaka.</a></p>,
         id: 2,
+        showBody: <div className="iframe-container"><iframe className="responsive-iframe" src="https://player.vimeo.com/video/466426169" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>,
         topImage: <img src={Netflix} alt='Jenevieve Ting | Netflix Queer is Beautiful' />,
     },
     //Loves Me | Loves Me Not
@@ -188,6 +190,7 @@ export const projects = [
         date: <h1 className="home__content-header date">September 2020</h1>,
         description: <p className="home__content-decscription">I created this visual poem made of 8 feet of plexiglass, vinyl, and a whole lot of love for my friends at <a href="https://www.instagram.com/studiolovealot/" target="_blank">Studio Love A Lot</a> — an extended community of creatives, makers, collaborators, lovers, and friends supporting friends — and their inaugural show, titled “No White Cubes,” which aims to prioritize accessibility to art, community gathering, and space making.</p>,
         id: 6,
+        showBody: <div className="iframe-container"><iframe className="responsive-iframe" src="https://player.vimeo.com/video/466428216" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>,
         topImage: <img src={WetSeason} alt='Jenevieve Ting | “It Takes A Wet Season”' />,
         imageTwo: <img src={WetSeason2} alt='Jenevieve Ting | “It Takes A Wet Season”' />,
     },
