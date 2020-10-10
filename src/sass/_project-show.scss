@@ -384,12 +384,11 @@
     
                 .show__section-content {
                       
-                    .responsive-iframe {
+                    .responsive-iframe, .poem, h1 {
                         padding-left: 0;
                     }
 
                     .poem {
-                        padding-left: 0;
                         width: 100%;
                         min-width: 100%;
                     }
@@ -401,7 +400,6 @@
                     h1 {
                         font-size: 3.5rem;
                         line-height: .9;
-                        padding-left: 0;
                     }
                 }
             }
