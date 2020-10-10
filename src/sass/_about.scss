@@ -49,6 +49,17 @@
     .about-credits {
         &__section {
             margin-bottom: 1rem;
+
+            a:link, a:visited {
+                color: #000;
+
+                &:hover {
+                    background: url('../assets/images/gradient-backgrounds/header1-background.png');
+                    background-size: cover;
+                    background-clip: text;
+                    color: transparent;
+                }
+            }
         }
     }
 }

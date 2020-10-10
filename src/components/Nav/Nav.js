@@ -36,6 +36,7 @@ const Nav = () => {
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=Los Angeles,us&units=metric&appid=${weatherKey}`)
             .then(res => res.json())
             .then(data => {
+                console.log(data)
                 setWeather(Math.floor(data.main.temp * 1.8 + 32))
             })
             .catch(err => console.log(err))

@@ -53,11 +53,10 @@ export const projects = [
         type: 'Workshop',
         category: <p className="home__content-category">Workshop</p>,
         header: <h1 className="home__content-header header">Queer Love Is Spacious</h1>,
-        date: <h1 className="home__content-header date">July 2020</h1>,
+        date: <h1 className="home__content-header date">July 2020–Present</h1>,
         description: <p className="home__content-decscription">How can a queer & non-binary lens or "framework" help us to better access other parts of ourselves with a greater sense of love & imagination? This recurring writing, thinking, and feeling workshop focuses on the ways QTBIPOC love can be rooted in & guided by a belief in spaciousness, the ceaseless ebb & flow of our own expansion, and how queerness is its own form of poetry.</p>,
         id: 0,
         showBody: <div className="iframe-container"><iframe className="responsive-iframe" title="Queer Love Is Spacious" src="https://player.vimeo.com/video/466430041" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
-        tag: <div className="tag"><p>Photo:<br /> "Grand Country"<br /> for Asian America:<br /> The Future is Now</p></div>,
         topImage: <img src={Spacious} alt='Jenevieve Ting | Queer Love Is Spacious' />,
     },
     // Atelier Ace Hotel
@@ -71,7 +70,7 @@ export const projects = [
         topImage: <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
         imageTwo: <img src={AtelierAce2} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
         imageThree: <img src={AtelierAce3} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
-        showBody:<p>[Extended Copy]
+        showBody:<p>
         Wrote, edited, and oversaw brand voice across all domestic & international Ace Hotel properties, venues, performance spaces, food & beverage outlets, social media channels, and retail partners. Edited, strategized, and conceptualized digital advertising and content for <a href="http://reader.acehotel.com/" target="_blank" rel="noopener noreferrer">Ace
         Reader</a>, an online platform highlighting arts & culture across Ace properties</p>,
     },
@@ -92,7 +91,7 @@ export const projects = [
         category: <p className="home__content-category">Zine / Community</p>,
         header: <h1 className="home__content-header header">Loves Me | Loves Me Not</h1>,
         date: <h1 className="home__content-header date">2017–2020</h1>,
-        description: <p className="home__content-decscription">A yearly Valentine’s Day zine co-edited, compiled and curated by me and my best friend Nikita Lamba, featuring work entirely by queer, trans, non-binary, and women artists of color. Our fourth volume was designed by Jimena Gamio. You can see it in full here.</p>,
+        description: <p className="home__content-decscription">A yearly Valentine’s Day zine co-edited, compiled, and curated by me and my best friend Nikita Lamba, featuring work entirely by queer, trans, non-binary, and women artists of color. Our fourth volume was designed by Jimena Gamio. You can see it in full here.</p>,
         id: 3,
         topImage: <img src={Zine1} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
         imageTwo: <img src={Zine2} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
@@ -103,10 +102,11 @@ export const projects = [
         type: 'interview',
         category:<p className="home__content-category">Interview</p>,
         header:<h1 className="home__content-header header">Goria Steinem</h1>,
-        date:<h1 className="home__content-header date">Aug. 2019</h1>,
+        date:<h1 className="home__content-header date">August 2019</h1>,
         description:<p className="home__content-decscription">I interviewed the feminist lightning rod for Ace Reader — a new online publication for Ace Hotel — about love, hope, fear, friendship, growing in concentric circles, how “being grateful is a burden in itself,” and her lifelong commitment to social justice.</p>,
         id: 4,
-        topImage: <img src={Gloria} alt='Jenevieve Ting | Gloria Steinem Interview' />,
+        topImage: <><img src={Gloria} alt='Jenevieve Ting | Gloria Steinem Interview' />
+                    <p>Photo: Gloria Steinem shot by Jenny Warburg.</p></>,
         tag:<div className="interview__top">
                 <div className="interview__section-tag">
                     <p>Full interview on</p>
@@ -135,7 +135,7 @@ export const projects = [
         pullQuote:  <div className="pull-quote-img">
                         <img src={GloriaPullQuote} alt="Jenevieve Ting | Gloria Steinem Interview" />
                     </div>,
-        credits: <><div className="show__credits-section"><p>Website</p><p>Reader.acehotel.com</p></div><div className="show__credits-section"><p>Interviewer</p><p>Jenevieve Ting</p></div><div className="show__credits-section"><p>Interview</p><p>Gloria Steinam</p></div></>
+        credits: <><div className="show__credits-section"><p>Website</p><p>reader.acehotel.com</p></div><div className="show__credits-section"><p>Interviewer</p><p>Jenevieve Ting</p></div><div className="show__credits-section"><p>Interviewee</p><p>Gloria Steinem</p></div></>
     },
     // Asian America: The Future is Now
     {
@@ -151,9 +151,6 @@ export const projects = [
         topImage: <img src={AsianAmerica} alt='Asian America: The Future is Now' />,
         imageTwo: <img src={AsianAmerica2} alt='Asian America: The Future is Now' />,
         imageThree: <img src={AsianAmerica3} alt='Asian America: The Future is Now' />,
-        dateTag:<div className="date-tag">
-                    <p>May 2020.<br /> 900 words<br /> 3:60 Min.</p>
-                </div>,
         title:<h1>Grand Country</h1>,
         showBody:<div className="poem"><p>my grandmother was born in Shanghai in 1939<br /> in chinese, her name means “grand country.”<br /> she was given a name meant for a boy,<br /> because in chinese, “country” is masculine —<br /> i am familiar with the way man can mean space,<br /> boy can mean borders,<br />
                     how a body marked by its grandeur is often just another way of saying<br /> that gender is not something to be shared freely,<br /> or transgressed easily.<br /><br /> the binary in chinese is not so unlike a great wall,<br /> a rigid, fortified structure meant to keep a kind of person in<br />
@@ -162,7 +159,7 @@ export const projects = [
                     just like you.”<br /> in that moment, we are the same age,<br /> just old enough to know that being a woman is an answer we are too young to question our bodies into<br /> becoming,<br /> we are just learning not to un-peel our fear if it is not ripe yet<br /> and<br /> we have the same face,<br /> round like a moon that always hides half of herself away.<br />
                     i want to tell her about the conversations i’ve been having about gender,<br /> tell her that sometimes dysphoria<br /> feels a lot like diaspora, like that “grand country” she knows so well is a place i’m still trying to reach<br /> but perhaps she already knows this,<br /> and perhaps there are no words for me to describe it anyways,<br />
                     because what is gender if not a question swallowing another question whole?<br /> a younger generation asking what an older one could not?<br /> what is the future if not a homecoming to your past?<br /> sometimes,<br /> i’ve found,<br /> the best way to build tomorrow is to return to it.<br /><br /> when my grandma is describing the man who brings her strawberries on the weekend,<br />
-                    she often says,<br /> “she brought me strawberries”<br /> when talking about her girl dog, she says,<br /> “he is so loyalty, he is such a good boy.”<br /> in chinese, the words for “he” and “she” sound exactly the same.<br /> upon hearing tā, you would have no way of knowing a person’s gender<br /> which is often why my grandma gets the pronouns mixed up in english.<br />
+                    she often says,<br /> “she brought me strawberries”<br /> when talking about her girl dog, she says,<br /> “he is so loyalty, he is such a good girl.”<br /> in chinese, the words for “he” and “she” sound exactly the same.<br /> upon hearing tā, you would have no way of knowing a person’s gender<br /> which is often why my grandma gets the pronouns mixed up in english.<br />
                     she often tells stories about people she meets,<br /> switching and careening and dissolving “he” from “she” like the swish of a fan,<br /> she does not think much of it these days.<br /> sometimes, she catches herself and says a different pronoun,<br /> but her tone stays the same—<br /> i want to believe in her mind that the person does too.<br /> when my grandma says “tā,”<br />
                     what i think she means is<br /> “i was once afraid to be whole too”<br /> or<br /> “these words are houses with leaky roofs”<br /> or<br /> “i still believe i could belong to myself”<br /> so,<br /> when my mother corrects my grandmother<br /> for “misgendering” people on accident,<br /> i can’t help but smile because<br /> maybe in her mind there is a future where these pronouns fail to encompass who we are too, and<br />
                     i want to believe i can live in that version of tomorrow too,<br /> so<br /> i don’t think my grandma is getting anything wrong about gender,<br /> i think she is telling us exactly how we’ve always wanted to be so,<br /> meet me there.<br /> there is a version of my future that looks exactly like my grandmother’s past<br />
@@ -170,22 +167,22 @@ export const projects = [
                     and there is no grander country than that.</p></div>,
         credits:<>
                 <div className="show__credits-section">
-                    <p>Photography</p><p>JT</p>
+                    <p>Photography</p><p>— Farrah Su</p>
                 </div>
                 <div className="show__credits-section">
-                    <p>Poem</p><p>JT</p>
+                    <p>Poem</p><p>— Jenevieve Ting</p>
                 </div>
                 <div className="show__credits-section">
-                    <p>Performance</p><p>JT</p>
+                    <p>Poem</p><p>— Jenevieve Ting</p>
                 </div><div className="show__credits-section">
-                    <p>Curated Performace</p><p>JT, MK, KM, KN</p>
+                    <p>Production & Curation</p><p>— Kyoko Takenaka, Jennelle Fong</p>
                 </div>
                 </>
     },
     // “It Takes A Wet Season”
     {
-        type: 'Poem / Installation',
-        category: <p className="home__content-category">Poem / Installation </p>,
+        type: 'Poem / Performance',
+        category: <p className="home__content-category">Poem / Performance</p>,
         header: <h1 className="home__content-header header">“It Takes A Wet Season”</h1>,
         date: <h1 className="home__content-header date">September 2020</h1>,
         description: <p className="home__content-decscription">I created this visual poem made of 8 feet of plexiglass, vinyl, and a whole lot of love for my friends at Studio Love A Lot — an extended community of creatives, makers, collaborators, lovers, and friends supporting friends — and their inaugural show, titled “No White Cubes,” which aims to prioritize accessibility to art, community gathering, and space making.</p>,
