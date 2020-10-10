@@ -70,7 +70,7 @@ export const projects = [
         topImage: <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
         imageTwo: <img src={AtelierAce2} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
         imageThree: <img src={AtelierAce3} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
-        showBody:<p>
+        showBody:<p class="body-text">
         Wrote, edited, and oversaw brand voice across all domestic & international Ace Hotel properties, venues, performance spaces, food & beverage outlets, social media channels, and retail partners. Edited, strategized, and conceptualized digital advertising and content for <a href="http://reader.acehotel.com/" target="_blank" rel="noopener noreferrer">Ace
         Reader</a>, an online platform highlighting arts & culture across Ace properties</p>,
     },
