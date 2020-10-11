@@ -244,190 +244,151 @@ export const projects = [
         id: 7,
         title:<h1>Rooted Love</h1>,
         showBody: <div className="poem"><p>
-                        my grandmother’s favorite flower is a yellow rose
-                        she says red roses are too obvious,
-                        that they are too flushed with emotion
-                        and they die too quickly
-                    </p>
-                    <br />
-                    <p>
-                        sometimes I wonder if she is remembering herself as a rose
-                        about how she left Taiwan and everything she had known
-                        when she was 17 and married the only man she has
-                        ever been with for nearly 6 decades
-                    </p>
-                    <br />
-                    <p>
-                        she tells me the day I graduate college that she just thinks
-                        of my grandfather as a friend
-                        that she takes care of him, not because she wants to but because she has to
-                        not because she loves to but because she knows that routine best
-                        in ways only silent caretakers know how to
-                    </p>
-                    <br />
-                    <p>
-                        sometimes I wonder if she is seeing film stills from her life
-                        in those yellow rose petals
-                        if she counts them as they fall
-                        and tries not to
-                        call it passing time
-                    </p>
-                    <br />
-                    <p>
-                        these days I’ve been thinking about telling my grandma
-                        that I don’t think I’ve ever been in love with a man
-                        and I have this sinking feeling that she would say “me neither”
-                    </p>
-                    <br />
-                    <p>
-                        when my grandma came to this country
-                        with a new husband
-                        and the promise of a better life
-                        I wonder if she knew she was signing all of her dreams away
-                    </p>
-                    <br />
-                    <p>
-                        that she would come to know husband
-                        and full time job as synonymous
-                        if she knew that caring for others
-                        would become her dominant personality trait
-                        if she knew she would never be with anyone else
-                        all her life
-                    </p>
-                    <br />
-                    <p>
-                        I have not yet come out to my grandmother
-                        because sometimes I think we are both still trapped
-                        in a closet somewhere
-                        somewhere neither of us feel free enough to love
-                        so I wonder if my out-ness around others
-                        is my way of telling a story my grandmother couldn’t
-                    </p>
-                    <br />
-                    <p>
-                        an identity I wear for both of us
-                        so that I might love more freely than she did
-                        I wonder if being out is not about visibility
-                        but about resistance
-                        about a hurt so deep it must be externalized
-                        must be laid bare in the sun so that light more pour into these holes
-                        make our bodies warm again
-                        I wonder if I am so free to be me
-                        because my family history is a museum of closed doors,
-                        is generations of silence and shadows
-                        am I the result of decades of love held back by circumstance
-                        or the aberration at the end of the story
-                    </p>
-                    <br />
-                    <p>
-                        you see my grandmother and I were born on the same day,
-                        fifty four years apart
-                        and in that time,
-                        she saw Okinawa and airplanes,
-                        left a motherland for the states
-                        married a man drunk on foreign promises
-                        and buried roots into quiet suburbia
-                        in a little town I would come to call my home
-                    </p>
-                    <br />
-                    <p>
-                        in that time she had a daughter
-                        who would have a daughter who is me
-                        who carries more than just a bloodline or a skin tone
-                        but a heartbeat and a story about losing touch with a past self too
-                        my Abu and I can be polar opposites at times,
-                        so we swap politics for porridge,
-                        trade social issues for suan cai
-                        and negate difference with nian gao
-                    </p>
-                    <br />
-                    <p>
-                        I cannot speak the language my grandma is most comfortable speaking
-                        so food is our dialect, when we cannot connect the dots
-                        in our own internal constellations
-                    </p>
-                    <br />
-                    <p>
-                        but I’m not sure what language to come out to my grandmother to
-                        because each time I try
-                        it just sounds a lot like silence
-                        you see my grandmother doesn’t live very close to here
-                        so whenever I go home
-                        with a big bouquet of her favorite yellow roses
-                        she asks me, jing jing, do you have a boyfriend yet?
-                    </p>
-                    <br />
-                    <p>
-                        and in all of my self-construction away from home
-                        I forget I was somebody’s baby girl for much
-                        longer than I was an out queer woman
-                        I forget that the personal is political
-                        but first it is personal
-                        it is so deeply my story to tell that I forget not everyone knows the words
-                        so I stumble a bit on my own explanation,
-                        trip up on identity politics like my body is a provisional ballot
-                        I thought I didn’t have to submit this time
-                    </p>
-                    <br />
-                    <p>
-                        so a lot of our time spent talking is about her life,
-                        Taiwan, if she misses speaking in Japanese, if she misses herself,
-                        and how she makes her food
-                    </p>
-                    <br />
-                    <p>
-                        I don’t want to disturb these quiet visiting hours
-                        they are so few and far between
-                        I am afraid that the day I tell her will be the last day she spends
-                        with me just loving that her only granddaughter is there at all
-                        I am afraid of changing one of the only relationships in my life that has ever been completely unbroken
-                        completely at peace in my heart
-                    </p>
-                    <br />
-                    <p>
-                        sometimes being honest with yourself doesn’t mean
-                        being out to everyone you know
-                        sometimes being honest with yourself
-                        means knowing your heart is not in a closet
-                        it is in your chest
-                        right where it has always been
-                        the warm center of me that lights up
-                        when I see my grandmother smile when I walk through the door,
-                        eyes all “it’s been too long” and tiny limbs shuffling me
-                        towards a table full of food that says
-                        welcome home, stay as long as you like
-                    </p>
-                    <br />
-                    <p>
-                        there is no hiding here
-                        only holding on
-                        to the farthest corners of my childhood heart and a
-                        grandmother who has never given me anything
-                        but love and origin stories
-                        with a home cooked meal
-                    </p>
-                    <br />
-                    <p>
-                        I don’t know when we started policing visibility
-                        like we’re always playing the “out” Olympics
-                        but I’m bowing out again this year
-                        on account of the fact that I’m busy
-                    </p>
-                    <br />
-                    <p>
-                        I’m going to spend the time I’ve got drinking crushed watermelon
-                        and looking through gelatin film prints of Abu in Santa Monica
-                        and listen to her stories about the sibling she had to leave behind
-                        and a life in Hawaii she still sometimes daydreams about
-                    </p>
-                    <br />
-                    <p>
-                        I am honest with myself
-                        even if my grandma is still waiting for a boy’s name to
-                        fall from my lips like a yellow rose petal and right into her approval
-                        because I know she is still loving the real me
-                        I guess that is something I got from her too  
-                    </p>
+                                            my grandmother’s favorite flower is a yellow rose<br />
+                                            she says red roses are too obvious,<br />
+                                            that they are too flushed with emotion<br />
+                                            and they die too quickly<br />
+                                            <br />
+                                            sometimes I wonder if she is remembering herself as a rose<br />
+                                            about how she left Taiwan and everything she had known<br />
+                                            when she was 17 and married the only man she has<br />
+                                            ever been with for nearly 6 decades<br />
+                                            <br />
+                                            she tells me the day I graduate college that she just thinks<br />
+                                            of my grandfather as a friend<br />
+                                            that she takes care of him, not because she wants to but because she has to<br />
+                                            not because she loves to but because she knows that routine best<br />
+                                            in ways only silent caretakers know how to<br />
+                                            <br />
+                                            sometimes I wonder if she is seeing film stills from her life<br />
+                                            in those yellow rose petals<br />
+                                            if she counts them as they fall<br />
+                                            and tries not to<br />
+                                            call it passing time<br />
+                                            <br />
+                                            these days I’ve been thinking about telling my grandma<br />
+                                            that I don’t think I’ve ever been in love with a man<br />
+                                            and I have this sinking feeling that she would say “me neither”<br />
+                                            <br />
+                                            when my grandma came to this country<br />
+                                            with a new husband<br />
+                                            and the promise of a better life<br />
+                                            I wonder if she knew she was signing all of her dreams away<br />
+                                            <br />
+                                            that she would come to know husband<br />
+                                            and full time job as synonymous<br />
+                                            if she knew that caring for others<br />
+                                            would become her dominant personality trait<br />
+                                            if she knew she would never be with anyone else<br />
+                                            all her life<br />
+                                            <br />
+                                            I have not yet come out to my grandmother<br />
+                                            because sometimes I think we are both still trapped<br />
+                                            in a closet somewhere<br />
+                                            somewhere neither of us feel free enough to love<br />
+                                            so I wonder if my out-ness around others<br />
+                                            is my way of telling a story my grandmother couldn’t<br />
+                                            <br />
+                                            an identity I wear for both of us<br />
+                                            so that I might love more freely than she did<br />
+                                            I wonder if being out is not about visibility<br />
+                                            but about resistance<br />
+                                            about a hurt so deep it must be externalized<br />
+                                            must be laid bare in the sun so that light more pour into these holes<br />
+                                            make our bodies warm again<br />
+                                            I wonder if I am so free to be me<br />
+                                            because my family history is a museum of closed doors,<br />
+                                            is generations of silence and shadows<br />
+                                            am I the result of decades of love held back by circumstance<br />
+                                            or the aberration at the end of the story<br />
+                                            <br />
+                                            you see my grandmother and I were born on the same day,<br />
+                                            fifty four years apart<br />
+                                            and in that time,<br />
+                                            she saw Okinawa and airplanes,<br />
+                                            left a motherland for the states<br />
+                                            married a man drunk on foreign promises<br />
+                                            and buried roots into quiet suburbia<br />
+                                            in a little town I would come to call my home<br />
+                                            <br />
+                                            in that time she had a daughter<br />
+                                            who would have a daughter who is me<br />
+                                            who carries more than just a bloodline or a skin tone<br />
+                                            but a heartbeat and a story about losing touch with a past self too<br />
+                                            my Abu and I can be polar opposites at times,<br />
+                                            so we swap politics for porridge,<br />
+                                            trade social issues for suan cai<br />
+                                            and negate difference with nian gao<br />
+                                            <br />
+                                            I cannot speak the language my grandma is most comfortable speaking<br />
+                                            so food is our dialect, when we cannot connect the dots<br />
+                                            in our own internal constellations<br />
+                                            <br />
+                                            but I’m not sure what language to come out to my grandmother to<br />
+                                            because each time I try<br />
+                                            it just sounds a lot like silence<br />
+                                            you see my grandmother doesn’t live very close to here<br />
+                                            so whenever I go home<br />
+                                            with a big bouquet of her favorite yellow roses<br />
+                                            she asks me, jing jing, do you have a boyfriend yet?<br />
+                                            <br />
+                                            and in all of my self-construction away from home<br />
+                                            I forget I was somebody’s baby girl for much<br />
+                                            longer than I was an out queer woman<br />
+                                            I forget that the personal is political<br />
+                                            but first it is personal<br />
+                                            it is so deeply my story to tell that I forget not everyone knows the words<br />
+                                            so I stumble a bit on my own explanation,<br />
+                                            trip up on identity politics like my body is a provisional ballot<br />
+                                            I thought I didn’t have to submit this time<br />
+                                            <br />
+                                            so a lot of our time spent talking is about her life,<br />
+                                            Taiwan, if she misses speaking in Japanese, if she misses herself,<br />
+                                            and how she makes her food<br />
+                                            <br />
+                                            I don’t want to disturb these quiet visiting hours<br />
+                                            they are so few and far between<br />
+                                            I am afraid that the day I tell her will be the last day she spends<br />
+                                            with me just loving that her only granddaughter is there at all<br />
+                                            I am afraid of changing one of the only relationships in my life that has ever been completely unbroken<br />
+                                            completely at peace in my heart<br />
+                                            <br />
+                                            sometimes being honest with yourself doesn’t mean<br />
+                                            being out to everyone you know<br />
+                                            sometimes being honest with yourself<br />
+                                            means knowing your heart is not in a closet<br />
+                                            it is in your chest<br />
+                                            right where it has always been<br />
+                                            the warm center of me that lights up<br />
+                                            when I see my grandmother smile when I walk through the door,<br />
+                                            eyes all “it’s been too long” and tiny limbs shuffling me<br />
+                                            towards a table full of food that says<br />
+                                            welcome home, stay as long as you like<br />
+
+                                            there is no hiding here<br />
+                                            only holding on<br />
+                                            to the farthest corners of my childhood heart and a<br />
+                                            grandmother who has never given me anything<br />
+                                            but love and origin stories<br />
+                                            with a home cooked meal<br />
+                                            <br />
+                                            I don’t know when we started policing visibility<br />
+                                            like we’re always playing the “out” Olympics<br />
+                                            but I’m bowing out again this year<br />
+                                            on account of the fact that I’m busy<br />
+                                            <br />
+                                            I’m going to spend the time I’ve got drinking crushed watermelon<br />
+                                            and looking through gelatin film prints of Abu in Santa Monica<br />
+                                            and listen to her stories about the sibling she had to leave behind<br />
+                                            and a life in Hawaii she still sometimes daydreams about<br />
+                                            <br />
+                                            I am honest with myself<br />
+                                            even if my grandma is still waiting for a boy’s name to<br />
+                                            fall from my lips like a yellow rose petal and right into her approval<br />
+                                            because I know she is still loving the real me<br />
+                                            I guess that is something I got from her too<br />
+ 
+                                        </p>
                 </div>,
         topImage: <img src={Rooted1} alt='Jenevieve Ting | Rooted Love' />,
         imageTwo: <img src={Rooted2} alt='Jenevieve Ting | Rooted Love' />,
@@ -441,9 +402,12 @@ export const projects = [
         date: <h1 className="home__content-header date">July 2019</h1>,
         description: <p className="home__content-decscription">I created an art installation for a larger gallery exhibit at Plaza de la Raza in Los Angeles called “Territory of the Human Heart,” as part of that year’s De Todos Lados fundraiser and benefit concert in support of Al Otro Lado, a nonprofit organization working to reunite families, support refugees, and uphold the rights of immigrants & asylum seekers.</p>,
         id: 8,
+        tag3: <div className="tag3">
+                <p>Flyer:<br /> “Territory of the Human Heart” for de Todos Lados.</p>
+              </div>,
         topImage: <img src={Water1} alt='Jenevieve Ting | “water populates me more than grief”' />,
         imageTwo: <img src={Water2} alt='Jenevieve Ting | “water populates me more than grief”' />,
-        imageThree: <img src={Water3} alt='Jenevieve Ting | “water populates me more than grief”' />,
+        imageFour: <div className="image-4-wrapper"><img className="image-4" src={Water3} alt='Jenevieve Ting | “water populates me more than grief”' /></div>,
     },
     //Married To Movement
     // {

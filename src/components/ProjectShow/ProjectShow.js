@@ -81,6 +81,10 @@ const ProjectShow = ({ match }) => {
                   {project.showImageLayout1}
                   {project.imageTwo}
                   {project.imageThree}
+                  <div className="bottom-flex-container">
+                    {project.tag3}
+                    {project.imageFour}
+                  </div>
                 </div>
                 <div className="show__credits">
                   {project.credits}

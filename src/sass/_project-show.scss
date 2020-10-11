@@ -279,6 +279,31 @@
         .show__bottom {
             width: 100%;
 
+            .bottom-flex-container {
+                display: flex;
+                position: relative;
+
+                .image-4-wrapper {
+                    width: 100%;
+                    padding-left: 11rem;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .tag3 {
+                    position: absolute;
+                    top: 2rem;
+                    left: 0;
+                }   
+
+                .tag3 p {
+                    font-size: .8rem;
+                    width: 60%;
+                }
+            }
+
             .image-layout-1 {
                 .img {
                     width: 100%;
@@ -535,6 +560,24 @@
             }
     
             .show__bottom {
+
+                .bottom-flex-container {
+                    flex-direction: column;
+    
+                    .image-4-wrapper {
+                        width: 100%;
+                        padding-left: 0rem;
+                    }
+    
+                    .tag3 {
+                        position: relative;
+                        margin-bottom: 1rem;
+                    }  
+
+                    .tag3 p {
+                        width: 100%;
+                    } 
+                } 
 
                 .image-layout-1 {
     
