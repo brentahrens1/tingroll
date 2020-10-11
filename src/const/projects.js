@@ -18,9 +18,14 @@ import Netflix from '../assets/images/Projects/Netflix/netflix.png'
 
 //Loves Me / Loves Me Not
 
-import Zine1 from '../assets/images/Projects/LovesMeLovesMeNot/ZINE-1.jpeg'
-import Zine2 from '../assets/images/Projects/LovesMeLovesMeNot/ZINE-3.jpg'
-import Zine3 from '../assets/images/Projects/LovesMeLovesMeNot/ZINE-6.jpg'
+
+import Zine1 from '../assets/images/Projects/LovesMeLovesMeNot/ZINE-1.jpg'
+import Zine2 from '../assets/images/Projects/LovesMeLovesMeNot/ZINE25.jpg'
+import Zine3 from '../assets/images/Projects/LovesMeLovesMeNot/ZINE4.jpg'
+import Zine4 from '../assets/images/Projects/LovesMeLovesMeNot/ZINE39.jpg'
+import Zine5 from '../assets/images/Projects/LovesMeLovesMeNot/ZINE30.jpg'
+import Zine6 from '../assets/images/Projects/LovesMeLovesMeNot/new41.jpg'
+import Zine from '../assets/images/Projects/LovesMeLovesMeNot/ZINE-1.jpeg'
 
 // Interview Gloria Steinem
 
@@ -131,9 +136,33 @@ export const projects = [
         tag2:<div className="tag2">
                 <p>Zine:<br /> Designed by <a href="http://www.jimena.info/" target="_blank">Jimena Gamio.</a><br /> You can see it in full <a href="http://lovesmezine.format.com" target="_blank">here.</a></p>
             </div>,
-        topImage: <img src={Zine1} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
-        imageTwo: <img src={Zine2} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
-        imageThree: <img src={Zine3} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
+        topImage: <img src={Zine} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
+        showImageLayout1: <div className="image-layout-1">
+        <div className="row-one">
+            <div className="img img-one">
+                <img src={Zine1} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+            </div>
+            <div className="img img-two">
+                <img src={Zine3} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+            </div>
+        </div>
+        <div className="row-one">
+            <div className="img img-one">
+                <img src={Zine2} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+            </div>
+            <div className="img img-two">
+                <img src={Zine5} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+            </div>
+        </div>
+        <div className="row-one">
+            <div className="img img-one">
+                <img src={Zine4} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+            </div>
+            <div className="img img-two">
+                <img src={Zine6} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+            </div>
+        </div>
+    </div>
     },
     // Gloria Steinem Interview
     {
