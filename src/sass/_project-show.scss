@@ -128,6 +128,13 @@
                 justify-content: space-between;
                 margin-top: 1rem;
 
+                a:hover {
+                    background: url('../assets/images/gradient-backgrounds/header1-background.png');
+                    background-size: cover;
+                    background-clip: text;
+                    color: transparent;
+                }
+
                 p {
                     width: 200px;
                 }
@@ -151,14 +158,34 @@
                 left: 0;
             }
 
-            .show__top-img {
+            .show__top-img{
                 width: 100%;
                 padding-left: 11rem;
+
+                //video as header
+
+                .iframe-container {
+                    position: relative;
+                    overflow: hidden;
+                    width: 100%;
+                    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+                }
+                  
+                .responsive-iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                }
 
                 img {
                     width: 100%;
                 }
             }
+
         }
 
         &__section {
@@ -174,6 +201,13 @@
 
             .show__section-content {
                 width: 100%;
+
+                .flyer {
+                    width: 70%;
+                    padding-left: 11rem;
+                }
+                
+                // Video in the body
 
                 .iframe-container {
                     position: relative;
@@ -387,8 +421,12 @@
     
                 .show__section-content {
                       
-                    .responsive-iframe, .poem, h1, .body-text {
+                    .responsive-iframe, .poem, h1, .body-text, .flyer {
                         padding-left: 0;
+                    }
+
+                    .flyer {
+                        width: 100%;
                     }
 
                     .poem {
@@ -424,5 +462,17 @@
 @media (max-width: 400px) {
     .home .home__content-box-2 h1 {
         margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: $extra-wide) {
+    .show {
+        &__section {
+            .show__section-content {
+                .body-text {
+                    font-size: $p-extra-wide;
+                }
+            }
+        }
     }
 }

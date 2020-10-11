@@ -56,8 +56,8 @@ export const projects = [
         date: <h1 className="home__content-header date">July 2020–Present</h1>,
         description: <p className="home__content-decscription">How can a queer & non-binary lens or "framework" help us to better access other parts of ourselves with a greater sense of love & imagination? This recurring writing, thinking, and feeling workshop focuses on the ways QTBIPOC love can be rooted in & guided by a belief in spaciousness, the ceaseless ebb & flow of our own expansion, and how queerness is its own form of poetry.</p>,
         id: 0,
-        showBody: <div className="iframe-container"><iframe className="responsive-iframe" title="Queer Love Is Spacious" src="https://player.vimeo.com/video/466430041" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
-        topImage: <img src={Spacious} alt='Jenevieve Ting | Queer Love Is Spacious' />,
+        topImage: <div className="iframe-container"><iframe className="responsive-iframe" title="Queer Love Is Spacious" src="https://player.vimeo.com/video/466430041" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
+        showBody: <img className="flyer" src={Spacious} alt='Jenevieve Ting | Queer Love Is Spacious' />,
     },
     // Atelier Ace Hotel
     {
@@ -70,7 +70,7 @@ export const projects = [
         topImage: <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
         imageTwo: <img src={AtelierAce2} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
         imageThree: <img src={AtelierAce3} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
-        showBody:<p class="body-text">
+        showBody:<p className="body-text">
         Wrote, edited, and oversaw brand voice across all domestic & international Ace Hotel properties, venues, performance spaces, food & beverage outlets, social media channels, and retail partners. Edited, strategized, and conceptualized digital advertising and content for <a href="http://reader.acehotel.com/" target="_blank" rel="noopener noreferrer">Ace
         Reader</a>, an online platform highlighting arts & culture across Ace properties</p>,
     },
@@ -82,8 +82,8 @@ export const projects = [
         date: <h1 className="home__content-header date">August 2020</h1>,
         description: <p className="home__content-decscription">A Pride variety showcase for LGBTQIA+ artists, musicians, poets (including me!), and comedians for Netflix’s internal team, hosted by Alyssa Edwards. Video performance shot and edited by my dear friend & collaborator Kyoko Takenaka.</p>,
         id: 2,
-        showBody: <div className="iframe-container"><iframe className="responsive-iframe" title="Queer is Beautiful" src="https://player.vimeo.com/video/466426169" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
-        topImage: <img src={Netflix} alt='Jenevieve Ting | Netflix Queer is Beautiful' />,
+        topImage: <div className="iframe-container"><iframe className="responsive-iframe" title="Queer is Beautiful" src="https://player.vimeo.com/video/466426169" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
+        showBody: <img className="flyer" src={Netflix} alt='Jenevieve Ting | Netflix Queer is Beautiful' />,
     },
     //Loves Me | Loves Me Not
     {
@@ -135,7 +135,7 @@ export const projects = [
         pullQuote:  <div className="pull-quote-img">
                         <img src={GloriaPullQuote} alt="Jenevieve Ting | Gloria Steinem Interview" />
                     </div>,
-        credits: <><div className="show__credits-section"><p>Website</p><p>reader.acehotel.com</p></div><div className="show__credits-section"><p>Interviewer</p><p>Jenevieve Ting</p></div><div className="show__credits-section"><p>Interviewee</p><p>Gloria Steinem</p></div></>
+        credits: <><div className="show__credits-section"><p>Website</p><p><a href="http://reader.acehotel.com/" target="_blank" rel="noopener noreferrer">reader.acehotel.com</a></p></div><div className="show__credits-section"><p>Interviewer</p><p>Jenevieve Ting</p></div><div className="show__credits-section"><p>Interviewee</p><p>Gloria Steinem</p></div></>
     },
     // Asian America: The Future is Now
     {
@@ -199,6 +199,7 @@ export const projects = [
         date: <h1 className="home__content-header date">March 2017</h1>,
         description: <p className="home__content-decscription">In collaboration with my friend & artistic daydream Kyoko Takenaka, I performed a spoken word piece titled “Yellow Rose” at Human Resources LA for Rooted Love, a multidisciplinary evening full of visual and performance art, music and healing.</p>,
         id: 7,
+        title:<h1>Rooted Love</h1>,
         showBody: <div className="poem"><p>
                         my grandmother’s favorite flower is a yellow rose
                         she says red roses are too obvious,
