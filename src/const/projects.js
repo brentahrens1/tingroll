@@ -68,11 +68,38 @@ export const projects = [
         description:<p className="home__content-decscription">Crafted & strategized online & in-print newsletters, social media content, website copy, digital marketing campaigns, advertisements, retail concepts & press releases across all Ace Hotel channels.</p>,
         id: 1,
         topImage: <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
-        imageTwo: <img src={AtelierAce2} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
-        imageThree: <img src={AtelierAce3} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
         showBody:<p className="body-text">
         Wrote, edited, and oversaw brand voice across all domestic & international Ace Hotel properties, venues, performance spaces, food & beverage outlets, social media channels, and retail partners. Edited, strategized, and conceptualized digital advertising and content for <a href="http://reader.acehotel.com/" target="_blank" rel="noopener noreferrer">Ace
         Reader</a>, an online platform highlighting arts & culture across Ace properties</p>,
+        showImageLayout1: 
+        <div className="image-layout-1">
+            <div className="row-one">
+                <div className="img img-one">
+                    <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+                </div>
+                <div className="img img-two">
+                    <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+                </div>
+            </div>
+            <div className="row-two">
+                <div className="tag">
+                    <p>This is the tag</p>
+                </div>
+                <div className="img img-three">
+                    <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+                </div>
+            </div>
+            <div className="row-one">
+                <div className="img img-four">
+                    <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+                </div>
+            </div>
+            <div className="row-three">
+                <div className="img img-five">
+                    <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+                </div>
+            </div>
+        </div>
     },
     //Netflix's “Queer is Beautiful”
     {

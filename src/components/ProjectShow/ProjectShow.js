@@ -73,6 +73,7 @@ const ProjectShow = ({ match }) => {
                   </div>
                 </div>
                 <div className="show__bottom">
+                  {project.showImageLayout1}
                   {project.imageTwo}
                   {project.imageThree}
                 </div>
