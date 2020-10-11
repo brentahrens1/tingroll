@@ -6,9 +6,11 @@ import Spacious from '../assets/images/Projects/QueerLoveIsSpacious/queer-love-i
 
 // Atelier Ace
 
-import AtelierAce from '../assets/images/Projects/AtelierAce/ACE WORK_Page_1.jpg'
-import AtelierAce2 from '../assets/images/Projects/AtelierAce/atelier2.jpg'
-import AtelierAce3 from '../assets/images/Projects/AtelierAce/atelier3.jpg'
+import AtelierAce from '../assets/images/Projects/AtelierAce/2020-JT-ChicagoAd.jpg'
+import AtelierAce2 from '../assets/images/Projects/AtelierAce/2020-JT-Kyoto Postcard.jpg'
+import AtelierAce3 from '../assets/images/Projects/AtelierAce/2020-JT-Newsletter.jpg'
+import AtelierAce4 from '../assets/images/Projects/AtelierAce/2020-JT-QueerAllYear.jpg'
+import AtelierAce5 from '../assets/images/Projects/AtelierAce/2020-JT-Youhaveavoice.jpg'
 
 // NETFLIX’S “QUEER IS BEAUTIFUL”
 
@@ -56,6 +58,9 @@ export const projects = [
         date: <h1 className="home__content-header date">July 2020–Present</h1>,
         description: <p className="home__content-decscription">How can a queer & non-binary lens or "framework" help us to better access other parts of ourselves with a greater sense of love & imagination? This recurring writing, thinking, and feeling workshop focuses on the ways QTBIPOC love can be rooted in & guided by a belief in spaciousness, the ceaseless ebb & flow of our own expansion, and how queerness is its own form of poetry.</p>,
         id: 0,
+        tag2:<div className="tag2">
+                <p>Flyer: <br />“Queer Love is Spacious” <br />Workshop, hosted by me.</p>
+            </div>,
         topImage: <div className="iframe-container"><iframe className="responsive-iframe" title="Queer Love Is Spacious" src="https://player.vimeo.com/video/466430041" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
         showBody: <img className="flyer" src={Spacious} alt='Jenevieve Ting | Queer Love Is Spacious' />,
     },
@@ -67,7 +72,7 @@ export const projects = [
         date:<h1 className="home__content-header date">2018–2020</h1>,
         description:<p className="home__content-decscription">Crafted & strategized online & in-print newsletters, social media content, website copy, digital marketing campaigns, advertisements, retail concepts & press releases across all Ace Hotel channels.</p>,
         id: 1,
-        topImage: <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
+        topImage: <img src={AtelierAce3} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
         showBody:<p className="body-text">
         Wrote, edited, and oversaw brand voice across all domestic & international Ace Hotel properties, venues, performance spaces, food & beverage outlets, social media channels, and retail partners. Edited, strategized, and conceptualized digital advertising and content for <a href="http://reader.acehotel.com/" target="_blank" rel="noopener noreferrer">Ace
         Reader</a>, an online platform highlighting arts & culture across Ace properties</p>,
@@ -75,18 +80,18 @@ export const projects = [
         <div className="image-layout-1">
             <div className="row-one">
                 <div className="img img-one">
-                    <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+                    <img src={AtelierAce5} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
                 </div>
                 <div className="img img-two">
-                    <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+                    <img src={AtelierAce4} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
                 </div>
             </div>
             <div className="row-two">
                 <div className="tag">
-                    <p>This is the tag</p>
+                    <p>Read the full Ace Newsletter here.</p>
                 </div>
                 <div className="img img-three">
-                    <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+                    <img src={AtelierAce3} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
                 </div>
             </div>
             <div className="row-one">
@@ -96,7 +101,7 @@ export const projects = [
             </div>
             <div className="row-three">
                 <div className="img img-five">
-                    <img src={AtelierAce} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
+                    <img src={AtelierAce2} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
                 </div>
             </div>
         </div>
@@ -110,6 +115,9 @@ export const projects = [
         description: <p className="home__content-decscription">A Pride variety showcase for LGBTQIA+ artists, musicians, poets (including me!), and comedians for Netflix’s internal team, hosted by Alyssa Edwards. Video performance shot and edited by my dear friend & collaborator Kyoko Takenaka.</p>,
         id: 2,
         topImage: <div className="iframe-container"><iframe className="responsive-iframe" title="Queer is Beautiful" src="https://player.vimeo.com/video/466426169" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
+        tag2:<div className="tag2">
+                <p>Flyer:<br />“Queer is Beautiful”<br /> hosted by Netflix Comment end.</p>
+            </div>,
         showBody: <img className="flyer" src={Netflix} alt='Jenevieve Ting | Netflix Queer is Beautiful' />,
     },
     //Loves Me | Loves Me Not
@@ -120,6 +128,9 @@ export const projects = [
         date: <h1 className="home__content-header date">2017–2020</h1>,
         description: <p className="home__content-decscription">A yearly Valentine’s Day zine co-edited, compiled, and curated by me and my best friend Nikita Lamba, featuring work entirely by queer, trans, non-binary, and women artists of color. Our fourth volume was designed by Jimena Gamio. You can see it in full here.</p>,
         id: 3,
+        tag2:<div className="tag2">
+                <p>Zine:<br /> Designed by <a href="http://www.jimena.info/" target="_blank">Jimena Gamio.</a><br /> You can see it in full <a href="http://lovesmezine.format.com" target="_blank">here.</a></p>
+            </div>,
         topImage: <img src={Zine1} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
         imageTwo: <img src={Zine2} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
         imageThree: <img src={Zine3} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
@@ -159,9 +170,14 @@ export const projects = [
                         <p>I get to do what I care about, so there’s no greater reward than that.</p>
                     </div>
                     </>,
-        pullQuote:  <div className="pull-quote-img">
-                        <img src={GloriaPullQuote} alt="Jenevieve Ting | Gloria Steinem Interview" />
-                    </div>,
+        pullQuote:<div className="pull-quote">
+                        <div className="quote-tag">
+                            <p>Quote: <br />Gloria Steinem from Ace Reader interview. </p>
+                        </div>
+                        <div className="pull-quote-img">
+                            <img src={GloriaPullQuote} alt="Jenevieve Ting | Gloria Steinem Interview" />
+                        </div>
+                  </div>,
         credits: <><div className="show__credits-section"><p>Website</p><p><a href="http://reader.acehotel.com/" target="_blank" rel="noopener noreferrer">reader.acehotel.com</a></p></div><div className="show__credits-section"><p>Interviewer</p><p>Jenevieve Ting</p></div><div className="show__credits-section"><p>Interviewee</p><p>Gloria Steinem</p></div></>
     },
     // Asian America: The Future is Now
@@ -194,15 +210,15 @@ export const projects = [
                     and there is no grander country than that.</p></div>,
         credits:<>
                 <div className="show__credits-section">
-                    <p>Photography</p><p>— Farrah Su</p>
+                    <p>Photography</p><p>Farrah Su</p>
                 </div>
                 <div className="show__credits-section">
-                    <p>Poem</p><p>— Jenevieve Ting</p>
+                    <p>Poem</p><p>Jenevieve Ting</p>
                 </div>
                 <div className="show__credits-section">
-                    <p>Poem</p><p>— Jenevieve Ting</p>
+                    <p>Poem</p><p>Jenevieve Ting</p>
                 </div><div className="show__credits-section">
-                    <p>Production & Curation</p><p>— Kyoko Takenaka, Jennelle Fong</p>
+                    <p>Production & Curation</p><p>Kyoko Takenaka, Jennelle Fong</p>
                 </div>
                 </>
     },

@@ -68,8 +68,13 @@ const ProjectShow = ({ match }) => {
                     {project.dateTag}
                   </div>
                   <div className="show__section-content">
-                    {project.title}
-                    {project.showBody}
+                    <div>
+                      {project.tag2}
+                    </div>
+                    <div className="show-body-container">
+                      {project.title}
+                      {project.showBody}
+                    </div>
                   </div>
                 </div>
                 <div className="show__bottom">

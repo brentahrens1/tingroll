@@ -108,14 +108,22 @@
         }
 
         .interview__pull-quote-section {
-           .pull-quote-img {
-               width: 70%;
-               padding-left: 11rem;
+            .pull-quote {
+                display: flex;
+                .quote-tag p {
+                    font-size: .8rem;
+                    width: 60%;
+                    margin-top: 2rem;
+                }
 
-               img {
-                   width: 100%;
-               }
-           }
+                .pull-quote-img {
+                    width: 70%;
+     
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
         }
 
         .show__credits {
@@ -201,6 +209,25 @@
 
             .show__section-content {
                 width: 100%;
+                display: flex;
+                position: relative;
+
+                .show-body-container {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .tag2 {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 20%;
+                }
+
+                .tag2 p {
+                    font-size: .8rem;
+                    width: 60%;
+                }
 
                 .flyer {
                     width: 70%;
@@ -264,6 +291,14 @@
                 .row-one {
                     display: flex;
 
+                    .img-one {
+                        padding-right: .3rem;
+                    }
+
+                    .img-two {
+                        padding-left: .3rem;
+                    }
+
                     .img-four {
                         width: 50%;
                     }
@@ -277,6 +312,11 @@
                         position: absolute;
                         top: 2rem;
                         left: 0;
+
+                        p {
+                            font-size: .8rem;
+                            width: 60%;
+                        }
                     }
 
                     .img-three {
@@ -402,14 +442,23 @@
     
             .interview__pull-quote-section {
 
-                .pull-quote-img {
-                    width: 100%;
-                    padding-left: 0rem;
-        
-                    img {
-                        width: 100%;
+                    .pull-quote {
+                        flex-direction: column;
+
+                        .quote-tag {
+                            margin-bottom: 1rem;
+                        }
+
+                        .pull-quote-img {
+                            width: 100%;
+                            padding-left: 0rem;
+                
+                            img {
+                                width: 100%;
+                            }
+                        }
                     }
-                }
+
             }
             .show__credits {
                 width: 100%;
@@ -453,7 +502,14 @@
                 }
     
                 .show__section-content {
+                    flex-direction: column;
                       
+                    .tag2 {
+                        position: relative;
+                        width: 100%;
+                        margin-bottom: 1rem;
+                    }
+
                     .responsive-iframe, .poem, h1, .body-text, .flyer {
                         padding-left: 0;
                     }
@@ -484,6 +540,14 @@
     
                     .row-one {
                         flex-direction: column;
+
+                        .img-one {
+                            padding-right: 0rem;
+                        }
+    
+                        .img-two {
+                            padding-left: 0rem;
+                        }
     
                         .img-four {
                             width: 100%;
@@ -525,7 +589,7 @@
     .show {
         &__section {
             .show__section-content {
-                .body-text {
+                .body-text, a {
                     font-size: $p-extra-wide;
                 }
             }
