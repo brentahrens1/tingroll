@@ -120,6 +120,7 @@ $randomImg: random(4);
 
 @media (min-width: $extra-wide) {
     .home {
+    
         .home__content-header {
             font-size: $h1-extra-wide;
         }
@@ -136,7 +137,7 @@ $randomImg: random(4);
 
 @media (max-width: $tablet) {
     .home {
-
+        margin-bottom: 7rem;
         .home__content-header {
             font-size: $h1-tablet;
         }
