@@ -38,19 +38,7 @@
                 color: initial;
             }
     
-            &:hover > a .home__content-decscription {
-                background: none;
-            }
-    
-            &:hover > a .date {
-                background: none;
-            }
-    
-            &:hover > a .header {
-                background: none;
-            }
-    
-            &:hover > a .home__content-category {
+            &:hover > a .home__content-decscription, &:hover > a .date, &:hover > a .header, &:hover > a .home__content-category {
                 background: none;
             }
         }
@@ -59,6 +47,8 @@
     // Interview show page styles
 
     .interview {
+        margin-bottom: .3rem;
+
         h1 {
             font-size: 4.5rem;
         }
@@ -71,14 +61,13 @@
             position: relative;
             display: flex;
 
-            .interview__question-first {
+            .interview__question-first, .interview__top-img {
                 padding-left: 11rem;
             }
 
             .interview__top-img {
                 width: 100%;
                 margin-top: 1rem;
-                padding-left: 11rem;
 
                 img {
                     width: 100%;
@@ -87,11 +76,9 @@
         }
 
         .interview__section-tag {
-            position: absolute;
-            top: 0;
-            left: 0;
+            @include tags;
             width: 17%;
-            font-size: .9rem;
+            font-size: .8rem;
             line-height: 1.2;
             margin-top: 1.5rem;
 
@@ -110,6 +97,7 @@
         .interview__pull-quote-section {
             .pull-quote {
                 display: flex;
+
                 .quote-tag p {
                     font-size: .8rem;
                     width: 60%;
@@ -162,9 +150,12 @@
             display: flex;
 
             .tag {
-                position: absolute;
-                top: 0;
-                left: 0;
+                @include tags;
+
+                p, a {
+                    font-size: .8rem;
+                    width: 100%;
+                }
             }
 
             .show__top-img{
@@ -174,20 +165,11 @@
                 //video as header
 
                 .iframe-container {
-                    position: relative;
-                    overflow: hidden;
-                    width: 100%;
-                    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+                    @include video-container;
                 }
                   
                 .responsive-iframe {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    bottom: 0;
-                    right: 0;
-                    width: 100%;
-                    height: 100%;
+                    @include video;
                 }
 
                 img {
@@ -203,9 +185,7 @@
             position: relative;
 
             .show__section-date-tag {
-                position: absolute;
-                top: 0;
-                left: 0;
+                @include tags;
             }
 
             .show__section-content {
@@ -218,44 +198,31 @@
                 }
 
                 .tag2 {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
+                    @include tags;
                     width: 20%;
+
+                    p {
+                        font-size: .8rem;
+                        width: 60%;
+                    }
                 }
 
-                .tag2 p {
-                    font-size: .8rem;
-                    width: 60%;
+                .flyer, h1, .body-text, .poem {
+                    padding-left: 11rem;
                 }
 
                 .flyer {
                     width: 70%;
-                    padding-left: 11rem;
                 }
                 
                 // Video in the body
 
                 .iframe-container {
-                    position: relative;
-                    overflow: hidden;
-                    width: 100%;
-                    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+                    @include video-container;
                 }
                   
                 .responsive-iframe {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    bottom: 0;
-                    right: 0;
-                    width: 100%;
-                    height: 100%;
-                    padding-left: 11rem;
-                }
-
-                .body-text, .poem {
-                    padding-left: 11rem;
+                    @include video;
                 }
 
                 .poem {
@@ -267,7 +234,6 @@
                     font-size: 4.5rem;
                     line-height: .5;
                     margin-bottom: 2rem;
-                    padding-left: 11rem;
                 }
 
                 p {
@@ -296,12 +262,12 @@
                     position: absolute;
                     top: 2rem;
                     left: 0;
-                }   
 
-                .tag3 p {
-                    font-size: .8rem;
-                    width: 60%;
-                }
+                    p {
+                        font-size: .8rem;
+                        width: 60%;
+                    }
+                }   
             }
 
             .image-layout-1 {
@@ -432,7 +398,6 @@
         margin-left: 0;
 
         .home {
-    
             .home__content {
                 .home__content-category {
                     margin: 0;
@@ -489,6 +454,7 @@
                     }
 
             }
+
             .show__credits {
                 width: 100%;
             }
@@ -543,11 +509,7 @@
                         padding-left: 0;
                     }
 
-                    .flyer {
-                        width: 100%;
-                    }
-
-                    .poem {
+                    .flyer, .poem {
                         width: 100%;
                         min-width: 100%;
                     }
@@ -588,12 +550,8 @@
                     .row-one {
                         flex-direction: column;
 
-                        .img-one {
+                        .img-one, .img-two {
                             padding-right: 0rem;
-                        }
-    
-                        .img-two {
-                            padding-left: 0rem;
                         }
     
                         .img-four {

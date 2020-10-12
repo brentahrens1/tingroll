@@ -94,7 +94,7 @@ export const projects = [
             </div>
             <div className="row-two">
                 <div className="tag">
-                    <p>Read the full Ace Newsletter <a href="https://drive.google.com/file/d/1pC7G_TLhFlONnTo-TEmuE9gXxFazjIuN/view" target="_blank">here.</a></p>
+                    <p>Read the full Ace Newsletter <a href="https://drive.google.com/file/d/1pC7G_TLhFlONnTo-TEmuE9gXxFazjIuN/view" target="_blank" rel="noopener noreferrer">here.</a></p>
                 </div>
                 <div className="img img-three">
                     <img src={AtelierAce3} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
@@ -134,8 +134,8 @@ export const projects = [
         date: <h1 className="home__content-header date">2017–2020</h1>,
         description: <p className="home__content-decscription">A yearly Valentine’s Day zine co-edited, compiled, and curated by me and my best friend Nikita Lamba, featuring work entirely by queer, trans, non-binary, and women artists of color. Our fourth volume was designed by Jimena Gamio.</p>,
         id: 3,
-        tag:<div className="tag2">
-                <p>Zine:<br /> Designed by <a href="http://www.jimena.info/" target="_blank">Jimena Gamio.</a><br /> You can see it in full <a href="http://lovesmezine.format.com" target="_blank">here.</a></p>
+        tag:<div className="tag">
+                <p>Zine:<br /> Designed by <a href="http://www.jimena.info/" target="_blank" rel="noopener noreferrer">Jimena Gamio.</a><br /> You can see it in full <a href="http://lovesmezine.format.com" target="_blank" rel="noopener noreferrer">here.</a></p>
             </div>,
         topImage: <img src={Zine} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
         showImageLayout1: <div className="image-layout-1">
