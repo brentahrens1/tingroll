@@ -155,6 +155,7 @@
     .show {
         width: 100%;
         margin-top: 2rem;
+        margin-bottom: .3rem;
 
         &__top {
             position: relative;
@@ -394,6 +395,10 @@
     }
 
     // Btns at the bottom of all show pages
+
+    .scroll-top, .next {
+        margin-bottom: .3rem;
+    }
 
     .scroll-top {
         text-decoration: underline;
