@@ -260,6 +260,7 @@ export const projects = [
         date: <h1 className="home__content-header date">September 2020</h1>,
         description: <p className="home__content-decscription">I created this visual poem made of 8 feet of plexiglass, vinyl, and a whole lot of love for my friends at Studio Love A Lot — an extended community of creatives, makers, collaborators, lovers, and friends supporting friends — and their inaugural show, titled “No White Cubes,” which aims to prioritize accessibility to art, community gathering, and space making.</p>,
         id: 6,
+        tag:<div className="tag"><p>Installation:<br /> Poem on plexiglass for<br/>Studio Love A Lot’s<br /> “No White Cubes.”</p></div>,
         showBody: <div className="iframe-container"><iframe className="responsive-iframe" title="Wet Season" src="https://player.vimeo.com/video/466428216" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
         topImage: <img src={WetSeason} alt='Jenevieve Ting | “It Takes A Wet Season”' />,
         imageTwo: <img src={WetSeason2} alt='Jenevieve Ting | “It Takes A Wet Season”' />,
