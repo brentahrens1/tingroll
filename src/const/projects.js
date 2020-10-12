@@ -173,8 +173,7 @@ export const projects = [
         date:<h1 className="home__content-header date">August 2019</h1>,
         description:<p className="home__content-decscription">I interviewed the feminist lightning rod for Ace Reader — a new online publication for Ace Hotel — about love, hope, fear, friendship, growing in concentric circles, how “being grateful is a burden in itself,” and her lifelong commitment to social justice.</p>,
         id: 4,
-        topImage: <><img src={Gloria} alt='Jenevieve Ting | Gloria Steinem Interview' />
-                    <p>Photo: Gloria Steinem shot by Jenny Warburg.</p></>,
+        topImage: <img src={Gloria} alt='Jenevieve Ting | Gloria Steinem Interview' />,
         tag:<div className="interview__top">
                 <div className="interview__section-tag">
                     <p>Full interview on</p>
