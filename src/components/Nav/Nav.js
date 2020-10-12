@@ -61,10 +61,6 @@ const Nav = () => {
                 </div>
                 <div className="nav__bottom">
                     <div className="nav__contact">
-                        <p>Telephone</p>
-                        <p className="phone"><a href="tel:925-915-0977" target="_blank" rel="noopener noreferrer">+1 925 915 0977</a></p>
-                    </div>
-                    <div className="nav__contact">
                         <p>Email</p>
                         <p className="email"><a href="mailto:tingrolls@gmail.com" target="_blank" rel="noopener noreferrer">tingrolls@gmail.com</a></p>
                     </div>
@@ -92,10 +88,6 @@ const Nav = () => {
                     </div>
                 </div>
                 <div className="nav__bottom">
-                    <div className="nav__contact">
-                        <p>Telephone</p>
-                        <p className="phone"><a href="tel:925-915-0977" target="_blank" rel="noopener noreferrer">+1 925 915 0977</a></p>
-                    </div>
                     <div className="nav__contact">
                         <p>Email</p>
                         <p className="email"><a href="mailto:tingrolls@gmail.com" target="_blank" rel="noopener noreferrer">tingrolls@gmail.com</a></p>
