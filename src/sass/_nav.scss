@@ -5,13 +5,14 @@
 
     &__desktop {
         @include nav;
+        border-right: 5px solid #C3B3FB;
         animation: gradient-border 60s linear infinite;
     }
 
     &__desktop-gradient {
         @include nav;
         animation: gradient-background 60s linear infinite;
-        border-right: 5px solid transparent; 
+        border-right: 5px solid transparent;
     }
 
     .underline {
@@ -101,6 +102,7 @@
         display: none;
         padding: 1rem;
         margin-top: 2rem;
+        border-bottom: 5px solid #C3B3FB;
         animation: gradient-border-mobile 60s linear infinite;
 
         .nav__header-mobile a {
@@ -134,6 +136,7 @@
         transition: top 600ms ease-in-out;
         background: $secondary-font-color;
         z-index: 999;
+        border-bottom: 5px solid #C3B3FB;
         animation: gradient-border-mobile 60s linear infinite;
         display: none;
     }
