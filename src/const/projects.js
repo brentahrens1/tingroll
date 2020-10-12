@@ -6,11 +6,12 @@ import Spacious from '../assets/images/Projects/QueerLoveIsSpacious/queer-love-i
 
 // Atelier Ace
 
+import AtelierAceMain from '../assets/images/Projects/AtelierAce/PAN_2018_Voting_Email_Mailer_V2.jpg'
 import AtelierAce from '../assets/images/Projects/AtelierAce/2020-JT-ChicagoAd.jpg'
 import AtelierAce2 from '../assets/images/Projects/AtelierAce/2020-JT-Kyoto Postcard.jpg'
 import AtelierAce3 from '../assets/images/Projects/AtelierAce/2020-JT-Newsletter.jpg'
 import AtelierAce4 from '../assets/images/Projects/AtelierAce/2020-JT-QueerAllYear.jpg'
-import AtelierAce5 from '../assets/images/Projects/AtelierAce/2020-JT-Youhaveavoice.jpg'
+import AtelierAce5 from '../assets/images/Projects/AtelierAce/2020-JT-AceNewYorkAd.jpg'
 
 // NETFLIX’S “QUEER IS BEAUTIFUL”
 
@@ -77,7 +78,7 @@ export const projects = [
         date:<h1 className="home__content-header date">2018–2020</h1>,
         description:<p className="home__content-decscription">Crafted & strategized online & in-print newsletters, social media content, website copy, digital marketing campaigns, advertisements, retail concepts & press releases across all Ace Hotel channels.</p>,
         id: 1,
-        topImage: <img src={AtelierAce3} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
+        topImage: <img src={AtelierAceMain} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />,
         showBody:<p className="body-text">
         Wrote, edited, and oversaw brand voice across all domestic & international Ace Hotel properties, venues, performance spaces, food & beverage outlets, social media channels, and retail partners. Edited, strategized, and conceptualized digital advertising and content for <a href="http://reader.acehotel.com/" target="_blank" rel="noopener noreferrer">Ace
         Reader</a>, an online platform highlighting arts & culture across Ace properties</p>,
@@ -93,7 +94,7 @@ export const projects = [
             </div>
             <div className="row-two">
                 <div className="tag">
-                    <p>Read the full Ace Newsletter here.</p>
+                    <p>Read the full Ace Newsletter <a href="https://drive.google.com/file/d/1pC7G_TLhFlONnTo-TEmuE9gXxFazjIuN/view" target="_blank">here.</a></p>
                 </div>
                 <div className="img img-three">
                     <img src={AtelierAce3} alt='Jenevieve Ting | Atelier Ace / Ace Hotel' />
@@ -121,7 +122,7 @@ export const projects = [
         id: 2,
         topImage: <div className="iframe-container"><iframe className="responsive-iframe" title="Queer is Beautiful" src="https://player.vimeo.com/video/466426169" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
         tag2:<div className="tag2">
-                <p>Flyer:<br />“Queer is Beautiful”<br /> hosted by Netflix Comment end.</p>
+                <p>Flyer:<br />“Queer is Beautiful”<br />hosted by Netflix</p>
             </div>,
         showBody: <img className="flyer" src={Netflix} alt='Jenevieve Ting | Netflix Queer is Beautiful' />,
     },
@@ -131,9 +132,9 @@ export const projects = [
         category: <p className="home__content-category">Zine / Community</p>,
         header: <h1 className="home__content-header header">Loves Me | Loves Me Not</h1>,
         date: <h1 className="home__content-header date">2017–2020</h1>,
-        description: <p className="home__content-decscription">A yearly Valentine’s Day zine co-edited, compiled, and curated by me and my best friend Nikita Lamba, featuring work entirely by queer, trans, non-binary, and women artists of color. Our fourth volume was designed by Jimena Gamio. You can see it in full here.</p>,
+        description: <p className="home__content-decscription">A yearly Valentine’s Day zine co-edited, compiled, and curated by me and my best friend Nikita Lamba, featuring work entirely by queer, trans, non-binary, and women artists of color. Our fourth volume was designed by Jimena Gamio.</p>,
         id: 3,
-        tag2:<div className="tag2">
+        tag:<div className="tag2">
                 <p>Zine:<br /> Designed by <a href="http://www.jimena.info/" target="_blank">Jimena Gamio.</a><br /> You can see it in full <a href="http://lovesmezine.format.com" target="_blank">here.</a></p>
             </div>,
         topImage: <img src={Zine} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
@@ -168,7 +169,7 @@ export const projects = [
     {
         type: 'interview',
         category:<p className="home__content-category">Interview</p>,
-        header:<h1 className="home__content-header header">Goria Steinem</h1>,
+        header:<h1 className="home__content-header header">Gloria Steinem</h1>,
         date:<h1 className="home__content-header date">August 2019</h1>,
         description:<p className="home__content-decscription">I interviewed the feminist lightning rod for Ace Reader — a new online publication for Ace Hotel — about love, hope, fear, friendship, growing in concentric circles, how “being grateful is a burden in itself,” and her lifelong commitment to social justice.</p>,
         id: 4,
@@ -245,7 +246,7 @@ export const projects = [
                     <p>Poem</p><p>Jenevieve Ting</p>
                 </div>
                 <div className="show__credits-section">
-                    <p>Poem</p><p>Jenevieve Ting</p>
+                    <p>Performance</p><p>Jenevieve Ting</p>
                 </div><div className="show__credits-section">
                     <p>Production & Curation</p><p>Kyoko Takenaka, Jennelle Fong</p>
                 </div>
@@ -253,8 +254,8 @@ export const projects = [
     },
     // “It Takes A Wet Season”
     {
-        type: 'Poem / Performance',
-        category: <p className="home__content-category">Poem / Performance</p>,
+        type: 'Poem / Installation',
+        category: <p className="home__content-category">Poem / Installation</p>,
         header: <h1 className="home__content-header header">“It Takes A Wet Season”</h1>,
         date: <h1 className="home__content-header date">September 2020</h1>,
         description: <p className="home__content-decscription">I created this visual poem made of 8 feet of plexiglass, vinyl, and a whole lot of love for my friends at Studio Love A Lot — an extended community of creatives, makers, collaborators, lovers, and friends supporting friends — and their inaugural show, titled “No White Cubes,” which aims to prioritize accessibility to art, community gathering, and space making.</p>,
@@ -425,8 +426,8 @@ export const projects = [
     },
     // “water populates me more than grief”
     {
-        type: 'Poem / Performance',
-        category: <p className="home__content-category">Poem / Performance</p>,
+        type: 'Poem / Installation',
+        category: <p className="home__content-category">Poem / Installation</p>,
         header: <h1 className="home__content-header header">“water populates me more than grief”</h1>,
         date: <h1 className="home__content-header date">July 2019</h1>,
         description: <p className="home__content-decscription">I created an art installation for a larger gallery exhibit at Plaza de la Raza in Los Angeles called “Territory of the Human Heart,” as part of that year’s De Todos Lados fundraiser and benefit concert in support of Al Otro Lado, a nonprofit organization working to reunite families, support refugees, and uphold the rights of immigrants & asylum seekers.</p>,

@@ -66,7 +66,7 @@ const Nav = () => {
                     </div>
                     <div className="nav__contact">
                         <p>Email</p>
-                        <p className="email"><a href="mailto:hello@tingroll.com" target="_blank" rel="noopener noreferrer">hello@tingroll.com</a></p>
+                        <p className="email"><a href="mailto:tingrolls@gmail.com" target="_blank" rel="noopener noreferrer">tingrolls@gmail.com</a></p>
                     </div>
                     <div className="nav__contact">
                         <p>Socials</p>
@@ -98,7 +98,7 @@ const Nav = () => {
                     </div>
                     <div className="nav__contact">
                         <p>Email</p>
-                        <p className="email"><a href="mailto:hello@tingroll.com" target="_blank" rel="noopener noreferrer">hello@tingroll.com</a></p>
+                        <p className="email"><a href="mailto:tingrolls@gmail.com" target="_blank" rel="noopener noreferrer">tingrolls@gmail.com</a></p>
                     </div>
                     <div className="nav__contact">
                         <p>Socials</p>
