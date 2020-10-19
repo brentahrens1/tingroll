@@ -65,7 +65,7 @@ export const projects = [
         description: <p className="home__content-decscription">How can a queer & non-binary lens or "framework" help us to better access other parts of ourselves with a greater sense of love & imagination? This recurring writing, thinking, and feeling workshop focuses on the ways QTBIPOC love can be rooted in & guided by a belief in spaciousness, the ceaseless ebb & flow of our own expansion, and how queerness is its own form of poetry.</p>,
         id: 0,
         tag2:<div className="tag2">
-                <p>Flyer: <br />“Queer Love is Spacious” <br />Workshop, hosted by me.</p>
+                <p>Flyer: <br />“Queer Love<br /> is Spacious” <br />Workshop, hosted<br />by me.</p>
             </div>,
         topImage: <div className="iframe-container"><iframe className="responsive-iframe" title="Queer Love Is Spacious" src="https://player.vimeo.com/video/466430041" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe></div>,
         showBody: <img className="flyer" src={Spacious} alt='Jenevieve Ting | Queer Love Is Spacious' />,
@@ -135,7 +135,7 @@ export const projects = [
         description: <p className="home__content-decscription">A yearly Valentine’s Day zine co-edited, compiled, and curated by me and my best friend Nikita Lamba, featuring work entirely by queer, trans, non-binary, and women artists of color. Our fourth volume was designed by Jimena Gamio.</p>,
         id: 3,
         tag:<div className="tag">
-                <p>Zine:<br /> Designed by <a href="http://www.jimena.info/" target="_blank" rel="noopener noreferrer">Jimena Gamio.</a><br /> You can see it in full <a href="http://lovesmezine.format.com" target="_blank" rel="noopener noreferrer">here.</a></p>
+                <p>Zine:<br /> Designed by <br /> <a href="http://www.jimena.info/" target="_blank" rel="noopener noreferrer">Jimena Gamio.</a><br /> You can see it in full <br /> <a href="http://lovesmezine.format.com" target="_blank" rel="noopener noreferrer">here.</a></p>
             </div>,
         topImage: <img src={Zine} alt='Jenevieve Ting | Loves Me | Loves Me Not' />,
         showImageLayout1: <div className="image-layout-1">
